@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyUjiIr" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyUjiIr" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-jobDetail-tag.cyUjiIr{font-size: 10px; padding: 3px 5px; margin-right: 5px; border-radius: 3px} .m-question.cyUjiIr{padding: 10px 20px} .m-answer.cyUjiIr{padding: 10px 20px} .m-choice.cyUjiIr{padding: 5px 0px} .m-ABCD.cyUjiIr{width: 20px; height: 20px; background: white; border: 1px solid rgb(221, 221, 221); border-radius: 50%; display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-choice-text.cyUjiIr{padding-left: 10px} .m-label-edit.cyUjiIr{display: flex; flex-flow: column wrap; justify-content: center; align-items: flex-start} .m-xuanze.cyUjiIr{color: rgb(0, 128, 255); border: 1px solid rgb(0, 128, 255)} .m-panduan.cyUjiIr{color: rgb(5, 169, 0); border: 1px solid rgb(5, 169, 0)} .m-question-text.cyUjiIr{line-height: 25px} .m-A.cyUjiIr:before{content: "A"; position: relative; bottom: 1px} .m-B.cyUjiIr:before{content: "B"; position: relative; bottom: 1px} .m-C.cyUjiIr:before{content: "C"; position: relative; bottom: 1px} .m-D.cyUjiIr:before{content: "D"; position: relative; bottom: 1px} .m-img.cyUjiIr{display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-foot.cyUjiIr{height: auto; text-align: center; background: rgb(238, 238, 238)} .m-btn.cyUjiIr{background: white; color: black; display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-jiaojuan.cyUjiIr{width: 40%; justify-content: flex-start; padding-left: 20px} .m-right-count.cyUjiIr{width: 20%} .m-wrong-count.cyUjiIr{width: 20%} .m-count.cyUjiIr{width: 40%} .m-icon.cyUjiIr{color: rgb(136, 136, 136)} .m-true-false.cyUjiIr{margin-right: 8px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyUjiIr" class="cyUjiIr"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pfd686f16e7794569b7ec829446b55c34-iosstatusbar cyUjiIr" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyUjiIr"> 
+    <div class="x-panel-top cyUjiIr" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyUjiIr"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyUjiIr" style="background-color:#EA413C;" xid="title_bar" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;10:00&quot;}" __cid="cyUjiIr"> 
+        <div class="x-titlebar-left cyUjiIr" __cid="cyUjiIr"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyUjiIr" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyUjiIr"> 
+            <i class="icon-arrow-left-c cyUjiIr" __cid="cyUjiIr"/>  
+            <span __cid="cyUjiIr" class="cyUjiIr"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyUjiIr" __cid="cyUjiIr"> 
+          <span xid="count" bind-text="&quot;10:00&quot;" __cid="cyUjiIr" class="cyUjiIr"/> 
+        </div>  
+        <div class="x-titlebar-right  cyUjiIr" __cid="cyUjiIr">
+          <div class="empty cyUjiIr" __cid="cyUjiIr"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyUjiIr" xid="content1" style="background:#eee;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyUjiIr"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyUjiIr" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cyUjiIr"> 
+        <div class="x-contents-content active cyUjiIr" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyUjiIr">
+          <h1 __cid="cyUjiIr" class="cyUjiIr"/>
+          <div xid="div1" class="m-question cyUjiIr" __cid="cyUjiIr">
+            <span xid="span4" class="m-jobDetail-tag m-xuanze cyUjiIr" __cid="cyUjiIr">选择题</span>
+            <span xid="span1" class="m-question-text cyUjiIr" __cid="cyUjiIr">WeX5是基于什么技术开发的移动开发技术？</span> 
+          </div>
+          <div xid="div13" class="m-img cyUjiIr" __cid="cyUjiIr">
+            <img src="" alt="" xid="image1" __cid="cyUjiIr" class="cyUjiIr"/> 
+          </div>
+          <div xid="div2" class="m-answer cyUjiIr" __cid="cyUjiIr">
+            <div xid="div3" class="m-choice cyUjiIr" __cid="cyUjiIr">
+              <div xid="div7" class="m-ABCD m-A cyUjiIr" style="float:left;" __cid="cyUjiIr"/>  
+              <span xid="span6" class="m-choice-text cyUjiIr" __cid="cyUjiIr">HTML5</span>
+            </div>  
+            <div xid="div9" class="m-choice cyUjiIr" __cid="cyUjiIr"> 
+              <div xid="div8" class="m-ABCD m-B cyUjiIr" style="float:left;" __cid="cyUjiIr"></div>  
+              <span xid="span2" class="m-choice-text cyUjiIr" __cid="cyUjiIr">JAVA</span>
+            </div>
+            <div xid="div4" class="m-choice cyUjiIr" __cid="cyUjiIr"> 
+              <div xid="div10" class="m-ABCD m-C cyUjiIr" style="float:left;" __cid="cyUjiIr"/>  
+              <span xid="span3" class="m-choice-text cyUjiIr" __cid="cyUjiIr">C++</span>
+            </div>
+            <div xid="div11" class="m-choice cyUjiIr" __cid="cyUjiIr"> 
+              <div xid="div12" class="m-ABCD m-D cyUjiIr" style="float:left;" __cid="cyUjiIr"/>  
+              <span xid="span5" class="m-choice-text cyUjiIr" __cid="cyUjiIr">C</span> 
+            </div>
+          </div> 
+        </div>  
+        <div class="x-contents-content cyUjiIr" xid="content4" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyUjiIr">
+          <h1 xid="h11" __cid="cyUjiIr" class="cyUjiIr"/>  
+          <div xid="div5" class="m-question cyUjiIr" __cid="cyUjiIr"> 
+            <span xid="span13" class="m-jobDetail-tag m-panduan cyUjiIr" __cid="cyUjiIr">判断题</span>  
+            <span xid="span14" class="m-question-text cyUjiIr" __cid="cyUjiIr">WeX5是基于什么技术开发的移动开发技术？</span>
+          </div>  
+          <div xid="div6" class="m-img cyUjiIr" __cid="cyUjiIr"> 
+            <img src="" alt="" xid="image2" __cid="cyUjiIr" class="cyUjiIr"/>
+          </div>  
+          <div xid="div24" class="m-answer cyUjiIr" __cid="cyUjiIr"> 
+            <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyUjiIr" class="cyUjiIr"> 
+              <label class="x-label cyUjiIr" xid="label2" __cid="cyUjiIr"/>  
+              <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radios x-edit m-label-edit cyUjiIr" xid="radioGroup2" data-bind="component:{name:'$model/UI2/system/components/justep/select/radioGroup'}" __cid="cyUjiIr">
+                <xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/radio" class="x-radio cyUjiIr" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio'}" __cid="cyUjiIr">
+                  <xhtml:input type="radio" __cid="cyUjiIr" class="cyUjiIr"/>
+                  <xhtml:label __cid="cyUjiIr" class="cyUjiIr"/>
+                </xhtml:span>
+              </span>
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-bottom m-foot cyUjiIr" xid="bottom5" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyUjiIr">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card cyUjiIr" xid="buttonGroup1" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cyUjiIr">
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link m-btn m-jiaojuan cyUjiIr" xid="button1" style="padding-left:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:submit" data-config="{&quot;icon&quot;:&quot;icon-ios7-compose-outline&quot;,&quot;label&quot;:&quot;交卷&quot;}" __cid="cyUjiIr"> 
+          <i xid="i1" class="icon-ios7-compose-outline cyUjiIr" style="color:#18B4ED;margin-right:8px;" __cid="cyUjiIr"/>  
+          <span xid="span7" __cid="cyUjiIr" class="cyUjiIr">交卷</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link pull-right m-btn m-count cyUjiIr" xid="button4" style="padding-right:20px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-storage&quot;}" __cid="cyUjiIr"> 
+          <i xid="i4" class="icon-android-storage m-icon cyUjiIr" style="margin-right:15px;" __cid="cyUjiIr"/>  
+          <span xid="span10" __cid="cyUjiIr" class="cyUjiIr">1</span>
+          <span xid="span11" __cid="cyUjiIr" class="cyUjiIr">/</span>
+          <span xid="span12" __cid="cyUjiIr" class="cyUjiIr">100</span>
+        </a> 
+      </div>
+    </div>
+    <style __cid="cyUjiIr" class="cyUjiIr">.x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfd686f16e7794569b7ec829446b55c34-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

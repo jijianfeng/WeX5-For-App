@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cJRnuam" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cJRnuam" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-media.cJRnuam{padding-bottom: 10px} .m-videoimg.cJRnuam{width: 76px; height: 80px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cJRnuam" class="cJRnuam"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar cJRnuam" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cJRnuam"> 
+    <div class="x-panel-top cJRnuam" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJRnuam">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cJRnuam" style="background-color:#EA413C;" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;参加的活动&quot;}" __cid="cJRnuam"> 
+        <div class="x-titlebar-left cJRnuam" xid="left1" __cid="cJRnuam"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cJRnuam" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cJRnuam"> 
+            <i class="icon-arrow-left-c cJRnuam" xid="i5" __cid="cJRnuam"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cJRnuam" xid="title1" __cid="cJRnuam">参加的活动</div>  
+        <div class="x-titlebar-right  cJRnuam" xid="right1" __cid="cJRnuam">
+          <div class="empty cJRnuam" __cid="cJRnuam"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cJRnuam" xid="content1" _xid="C70F3D71E35000013799117F14F081B0" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJRnuam">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cJRnuam" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cJRnuam"> 
+        <div class="x-contents-content  x-scroll-view active cJRnuam" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cJRnuam">
+          <div class="x-scroll cJRnuam" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView2" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cJRnuam"> 
+            <div class="x-scroll-content cJRnuam" xid="div5" __cid="cJRnuam">
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cJRnuam" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;activityData&quot;}" __cid="cJRnuam"> 
+                <ul class="x-list-template hide cJRnuam" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cJRnuam"> 
+                  <li xid="li1" class="list-group-item cJRnuam" bind-click="activityDetail" __cid="cJRnuam">
+                    <div class="media m-media cJRnuam" xid="div7" __cid="cJRnuam"> 
+                      <div class="media-left cJRnuam" xid="div3" __cid="cJRnuam"> 
+                        <img alt="" xid="image1" class="img-rounded media-object m-videoimg cJRnuam" bind-attr-src=" $model.getImageUrl( $object.val(&quot;imageUrl&quot;))" __cid="cJRnuam"/>
+                      </div>  
+                      <div xid="div8" class="media-body cJRnuam" __cid="cJRnuam">
+                        <div class="x-flex1 cJRnuam" xid="col27" __cid="cJRnuam"> 
+                          <h5 class="o-nomargintop cJRnuam" xid="h56" bind-text=" $object.val(&quot;title&quot;)" __cid="cJRnuam"/>  
+                          <span style="text-align: justify;" xid="span38" bind-text=" $object.val(&quot;content&quot;)" __cid="cJRnuam" class="cJRnuam"/>  
+                          <span class="pull-right cJRnuam" xid="span39" bind-text=" $object.val(&quot;joinNumber&quot;) + &quot;人报名&quot;" __cid="cJRnuam"/>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up cJRnuam" xid="div6" __cid="cJRnuam"> 
+              <span class="x-pull-up-label cJRnuam" xid="span4" __cid="cJRnuam">加载更多...</span>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cJRnuam" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cJRnuam"/>
+    <style __cid="cJRnuam" class="cJRnuam">.x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p22b7b62818b2494387ac5e3e362ecdf9-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.m-div3{padding-top:20px 0px;}
+
+/*工资 经验 地点*/
+.m-money::before{content: "\f2af";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#F9D26C;}
+.m-exp::before{content: "\f26c";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#468847;}
+.m-location::before{content: "\f1a5";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#2FACED;}
+
+.m-text-center{text-align:center;}
+.m-rowdiv{padding:0px;border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee;}
+.m-row{padding:0px;}
+.m-blockdiv{width:100%;height:10px;background:#F4F4F4;}
+
+/*工作亮点*/
+.m-paddingRL{padding:0px 10px; }
+.m-col{border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;}
+.m-jobDetail-p{padding:10px 0px;margin:0px;}
+
+/*工作亮点的tag*/
+.m-jobDetail-tagdiv{padding-bottom:10px;padding-left:0px;line-height:18px;display:flex;flex-flow:row wrap;justify-content:flex-start;align-content:flex-start;}
+.m-jobDetail-tag{font-size:10px;padding:3px 5px;margin:5px;border:1px solid #dddddd;border-radius:3px;margin-right:8px;}
+
+.m-jobDetail-imgBox{padding:10px;display:flex;justify-content:center;}
+.m-jobDetail-text{text-align:center;}
+.m-jobDetail-require{padding:10px 0px;}
+
+/*底部点击颜色*/
+.x-card.btn-group .btn.active{color:#EA413C;}
+.m-shenhezhong{color:#3ABB16;}
+
+

@@ -1,0 +1,36 @@
+.h5{ line-height:2; color:#333;}
+.text-black{ color:#333;}
+.text-white{ color:#fff;}
+
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+.badge{ background-color:#ff7767;}
+
+.img1{ height:200px;}
+.img4{ width:50px; height:50px;}
+
+.panel-heading{ border-color:#e1e1e1;}
+
+/*没有左右边距*/
+.x-nopadding{ padding-left:0; padding-right:0;}
+
+/*底部**/
+.x-panel-bottom{ padding:5px 10px;}
+.x-panel-bottom .input-group .input-group-addon{ background-color:#fff; border-left:0; border-right:0; border-top:0; border-radius:0 0 0 8px;}
+.x-panel-bottom .input-group .form-control{ width:auto; border-left:0; border-right:0; border-top:0; border-radius:0 0 8px 0;}
+.x-panel-bottom .input-group .form-control:focus{ box-shadow:none; border-color:#efefef;}
+.x-panel-bottom .form-control-feedback{ right:15px;}
+
+.m-box:last-child{margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;}
+.m-box:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.m-box{    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #eee;
+	
+}
+.m-post-content{padding:10px;}

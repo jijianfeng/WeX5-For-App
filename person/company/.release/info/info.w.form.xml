@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cyeiQJz" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyeiQJz" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/output/output,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-foot.cyeiQJz{padding: 0px 20px; text-align: center; height: auto} .m-form.cyeiQJz{padding: 0px 15px} .m-label.cyeiQJz{text-align: left} .m-resume-i.cyeiQJz{padding-right: 5px} .m-col-nopadding.cyeiQJz{padding: 0px; margin: 0px} .m-select-box.cyeiQJz{padding: 0px 5px} .appearance.cyeiQJz select.form-control.cyeiQJz{padding: 0px 5px} .m-headerBox.cyeiQJz{padding: 20px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center; border-bottom: 1px solid rgb(199, 199, 199)} .m-span-block.cyeiQJz{height: 10px; margin: 0px 5px; border-right: 1px solid rgb(199, 199, 199)} .m-div6.cyeiQJz{display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-output-box.cyeiQJz{padding: 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyeiQJz" class="cyeiQJz"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar cyeiQJz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyeiQJz"> 
+    <div class="x-panel-top cyeiQJz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyeiQJz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyeiQJz" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;开发商信息&quot;}" __cid="cyeiQJz"> 
+        <div class="x-titlebar-left cyeiQJz" __cid="cyeiQJz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyeiQJz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cyeiQJz"> 
+            <i class="icon-arrow-left-c cyeiQJz" __cid="cyeiQJz"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyeiQJz" __cid="cyeiQJz">开发商信息</div>  
+        <div class="x-titlebar-right  cyeiQJz" __cid="cyeiQJz">
+          <div class="empty cyeiQJz" __cid="cyeiQJz"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cyeiQJz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyeiQJz">
+      <div xid="div3" class="m-form cyeiQJz" __cid="cyeiQJz">
+        <div xid="div1" class="m-headerBox cyeiQJz" __cid="cyeiQJz"> 
+          <img src="$model/UI2/Hello/img/Logo2.png" alt="" xid="image1" height="100px" __cid="cyeiQJz" class="cyeiQJz"/>  
+          <div xid="div5" __cid="cyeiQJz" class="cyeiQJz"> 
+            <div component="$model/UI2/system/components/justep/output/output" class="x-output cyeiQJz" xid="output1" bind-text="&quot;杭州泽微科技&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cyeiQJz"/>
+          </div>  
+          <div xid="div6" class="m-div6 cyeiQJz" __cid="cyeiQJz"></div> 
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeiQJz" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeiQJz"> 
+          <label class="x-label m-label cyeiQJz" xid="label3" __cid="cyeiQJz">公司名称</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeiQJz" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入公司名称&quot;}" __cid="cyeiQJz"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeiQJz" xid="labelEdit31" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeiQJz"> 
+          <label class="x-label m-label cyeiQJz" xid="label33" __cid="cyeiQJz">
+            <i xid="i2" class="icon-android-call  m-resume-i cyeiQJz" __cid="cyeiQJz"/>联系方式
+          </label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeiQJz" xid="input29" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入手机号码&quot;}" __cid="cyeiQJz"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeiQJz" xid="labelEdit27" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeiQJz"> 
+          <label class="x-label m-label cyeiQJz" xid="label29" __cid="cyeiQJz">
+            <i xid="i1" class="icon-android-mail m-resume-i cyeiQJz" style="align:center;" __cid="cyeiQJz"/>邮箱
+          </label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeiQJz" xid="input25" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入电子邮件地址&quot;}" __cid="cyeiQJz"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cyeiQJz" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cyeiQJz"> 
+          <label class="x-label m-label cyeiQJz" xid="label5" __cid="cyeiQJz">所在地址</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cyeiQJz" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入公司地址&quot;}" __cid="cyeiQJz"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom m-foot cyeiQJz" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyeiQJz"> 
+      <a component="$model/UI2/system/components/justep/button/button" class="btn cyeiQJz" xid="button1" style="width:100%;background:#EA413C;color:white;" bind-click="nextClick" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:submit" data-config="{&quot;label&quot;:&quot;提交&quot;}" __cid="cyeiQJz"> 
+        <i xid="i6" __cid="cyeiQJz" class="cyeiQJz"/>  
+        <span xid="span2" __cid="cyeiQJz" class="cyeiQJz">提交</span>
+      </a>
+    </div>  
+    <style __cid="cyeiQJz" class="cyeiQJz">.x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p8cb7d2b7b67c4e3097c863023c923a36-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

@@ -1,0 +1,38 @@
+/*总*/
+.m-jobDetail-tag{font-size:10px;padding:3px 5px;margin-right:5px;border-radius:3px;}
+.m-question{padding:10px 20px;}
+.m-answer{padding:10px 20px;}
+.m-choice{padding:5px 0px;}
+.m-ABCD{width:20px;height:20px;background:white;border:1px solid #ddd;border-radius:50%;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+.m-choice-text{padding-left:10px }
+.m-label-edit{display:flex;flex-flow:column wrap;justify-content:center;align-items:flex-start;}
+
+
+/*判断&选择*/
+.m-xuanze{color:#0080ff;border:1px solid #0080ff;}
+.m-panduan{color:#05A900;border:1px solid #05A900;}
+
+/*问题*/
+.m-question-text{line-height:25px;}
+
+/*ABCD*/
+.m-A::before{content:"A";position:relative;bottom:1px;}
+.m-B::before{content:"B";position:relative;bottom:1px;}
+.m-C::before{content:"C";position:relative;bottom:1px;}
+.m-D::before{content:"D";position:relative;bottom:1px;}
+
+/*中间的图片*/
+.m-img{display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+
+/*bottom*/
+.m-foot{height:auto;text-align: center;background:#eee;}
+.m-btn{background:white;color:black;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+.m-jiaojuan{width:40%;justify-content:flex-start;padding-left:20px;}
+.m-right-count{width:20%;}
+.m-wrong-count{width:20%;}
+.m-count{width:40%;}
+
+/*底部图标*/
+.m-icon{color:#888;}
+.m-true-false{margin-right:8px;}
+

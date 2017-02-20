@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cjYZJB3" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cjYZJB3" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cjYZJB3{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .m-textarea-box.cjYZJB3{position: relative} .m-textarea.cjYZJB3{border-top-left-radius: 0px; border-top-right-radius: 0px} .m-word-count.cjYZJB3{position: absolute; right: 0px; bottom: 0px} .m-foot.cjYZJB3{height: auto; padding: 0px 10px; text-align: center}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cjYZJB3" class="cjYZJB3"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar cjYZJB3" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cjYZJB3"> 
+    <div class="x-panel-top cjYZJB3" xid="top2" style="color:white;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cjYZJB3"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cjYZJB3" xid="titleBar2" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cjYZJB3"> 
+        <div class="x-titlebar-left cjYZJB3" xid="left2" __cid="cjYZJB3">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cjYZJB3" xid="button6" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cjYZJB3"> 
+            <i xid="i6" class="icon-arrow-left-c cjYZJB3" __cid="cjYZJB3"/>  
+            <span xid="span6" __cid="cjYZJB3" class="cjYZJB3">搜索</span>
+          </a>
+        </div>  
+        <div class="x-titlebar-title cjYZJB3" xid="title2" __cid="cjYZJB3"/>  
+        <div class="x-titlebar-right  cjYZJB3" xid="right2" __cid="cjYZJB3">
+          <div class="empty cjYZJB3" __cid="cjYZJB3"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label pull-right cjYZJB3" xid="button2" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;保存&quot;}" __cid="cjYZJB3"> 
+            <i xid="i3" __cid="cjYZJB3" class="cjYZJB3"/>  
+            <span xid="span4" __cid="cjYZJB3" class="cjYZJB3">保存</span>
+          </a>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content  cjYZJB3" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cjYZJB3"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cjYZJB3" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cjYZJB3"> 
+        <div class="x-contents-content m-content active cjYZJB3" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cjYZJB3"> 
+          <div xid="div1" class="m-textarea-box cjYZJB3" __cid="cjYZJB3"> 
+            <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control m-textarea cjYZJB3" xid="textarea1" style="height:150px;" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" data-config="{&quot;placeHolder&quot;:&quot;请填写职位描述, 请勿填写歧视性内容&quot;}" __cid="cjYZJB3"/>
+            <span xid="span1" class="m-word-count cjYZJB3" __cid="cjYZJB3">0/500</span>
+          </div>
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cjYZJB3" class="cjYZJB3">.x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc71a36f0f0c848349f638c7948fd3b76-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

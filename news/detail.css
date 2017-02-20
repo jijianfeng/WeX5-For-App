@@ -1,0 +1,24 @@
+.h5{ line-height:2; color:#212121;}
+.text-black{ color:#333;}
+.text-white{ color:#fff;}
+
+.o-img4{ width:50px; height:50px;}
+
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+.panel-heading{ border-color:#efefef;}
+
+/*没有左右边距*/
+.o-nopadding{ padding-left:0; padding-right:0;}
+
+/*跟贴数量*/
+.badge{ background-color:#ff7767;}
+
+/*内容文字*/
+.lead{ line-height:36px; text-align:justify;}
+
+/*底部**/
+.x-panel-bottom{ padding:5px 10px;}
+.x-panel-bottom .input-group .input-group-addon{ background-color:#fff; border-left:0; border-right:0; border-top:0; border-radius:0 0 0 8px;}
+.x-panel-bottom .input-group .form-control{ width:auto; border-left:0; border-right:0; border-top:0; border-radius:0 0 8px 0;}
+.x-panel-bottom .input-group .form-control:focus{ box-shadow:none; border-color:#efefef;}
+.x-panel-bottom .form-control-feedback{ right:15px;}

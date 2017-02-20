@@ -1,0 +1,22 @@
+/*title*/
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+
+/*content*/
+.m-content{padding:10px;}
+
+/*divlist*/
+.m-fabuzhiwei-list{padding:15px 0px;border-bottom:1px solid #eee;}
+.m-fabuzhiwei-title{float:left;}
+.m-fabuzhiwei-choice{float:right;color:black;}
+.m-fabuzhiwei-icon{color:#EA413C;}
+
+/*复选框*/
+.m-check-box{margin:0px;padding:0px;}
+.m-check-box input[type="checkbox"]{margin:0px;}
+.x-checkbox input[type="checkbox"]:checked + label:before{background:#EA413C;}
+
+/*面议*/
+.m-mianyi-text{color:black;font-weight: bold;}
+
+/*bottom*/
+.m-foot{height:auto;padding:0px 10px;text-align: center;}

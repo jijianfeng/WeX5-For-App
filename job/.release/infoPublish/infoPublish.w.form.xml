@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cEfUFRb" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEfUFRb" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cEfUFRb{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .m-content.cEfUFRb{padding: 10px} .m-fabuzhiwei-list.cEfUFRb{padding: 15px 0px; border-bottom: 1px solid rgb(238, 238, 238); color: rgb(170, 170, 170)} .m-fabuzhiwei-title.cEfUFRb{float: left} .m-fabuzhiwei-choice.cEfUFRb{float: right; color: black} .m-fabuzhiwei-icon.cEfUFRb{color: rgb(234, 65, 60)} .m-edit-input-box.cEfUFRb{border-bottom: 1px solid rgb(238, 238, 238)} .m-fabuzhiwei-label.cEfUFRb{color: rgb(170, 170, 170)} .m-fabuzhiwei-input.cEfUFRb{border: 0px solid rgb(238, 238, 238); text-align: right} .m-foot.cEfUFRb{height: auto; padding: 0px 10px; text-align: center}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cEfUFRb" class="cEfUFRb"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pbc25f0603b8641dd846f17726b0394b4-iosstatusbar cEfUFRb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEfUFRb"> 
+    <div class="x-panel-top cEfUFRb" xid="top2" style="color:white;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEfUFRb">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEfUFRb" xid="titleBar1" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;发布求职信息&quot;}" __cid="cEfUFRb"> 
+        <div class="x-titlebar-left text-white cEfUFRb" xid="left1" __cid="cEfUFRb"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cEfUFRb" xid="button6" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cEfUFRb"> 
+            <i xid="i6" class="icon-arrow-left-c cEfUFRb" __cid="cEfUFRb"/>  
+            <span xid="span6" __cid="cEfUFRb" class="cEfUFRb">搜索</span>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cEfUFRb" xid="title1" __cid="cEfUFRb">发布求职信息</div>  
+        <div class="x-titlebar-right text-white cEfUFRb" xid="right1" __cid="cEfUFRb"></div> 
+      </div>
+    </div>  
+    <div class="x-panel-content  cEfUFRb" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEfUFRb"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cEfUFRb" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cEfUFRb"> 
+        <div class="x-contents-content m-content active cEfUFRb" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cEfUFRb">
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 m-edit-input-box cEfUFRb" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cEfUFRb"> 
+            <label class="x-label m-fabuzhiwei-label cEfUFRb" xid="label3" __cid="cEfUFRb">公司</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit m-fabuzhiwei-input cEfUFRb" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入所在公司&quot;}" __cid="cEfUFRb"/>
+          </div>  
+          <div xid="div6" class="clearfix m-fabuzhiwei-list cEfUFRb" __cid="cEfUFRb"> 
+            <span xid="span3" class="m-fabuzhiwei-title cEfUFRb" __cid="cEfUFRb">地区</span>  
+            <span xid="span4" class="m-fabuzhiwei-choice cEfUFRb" __cid="cEfUFRb"> 
+              <i src="" alt="" xid="image5" class="icon-chevron-right m-fabuzhiwei-icon cEfUFRb" __cid="cEfUFRb"/>
+            </span>
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 m-edit-input-box cEfUFRb" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cEfUFRb"> 
+            <label class="x-label m-fabuzhiwei-label cEfUFRb" xid="label2" __cid="cEfUFRb">职位</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit m-fabuzhiwei-input cEfUFRb" xid="input2" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入理想职位&quot;}" __cid="cEfUFRb"/>
+          </div>
+          <div xid="div5" class="clearfix m-fabuzhiwei-list cEfUFRb" bind-click="nianxinClick" __cid="cEfUFRb"> 
+            <span xid="span13" class="m-fabuzhiwei-title cEfUFRb" __cid="cEfUFRb">期望年薪</span>  
+            <span xid="span12" class="m-fabuzhiwei-choice cEfUFRb" __cid="cEfUFRb"> 
+              <i src="" alt="" xid="i4" class="icon-chevron-right m-fabuzhiwei-icon cEfUFRb" __cid="cEfUFRb"/>
+            </span> 
+          </div>
+          <div xid="div2" class="clearfix m-fabuzhiwei-list cEfUFRb" __cid="cEfUFRb"> 
+            <span xid="span7" class="m-fabuzhiwei-title cEfUFRb" __cid="cEfUFRb">个人特点</span>  
+            <span xid="span1" class="m-fabuzhiwei-choice cEfUFRb" __cid="cEfUFRb"> 
+              <i src="" alt="" xid="i3" class="icon-chevron-right m-fabuzhiwei-icon cEfUFRb" __cid="cEfUFRb"/>
+            </span>
+          </div>  
+          <div xid="div7" class="clearfix m-fabuzhiwei-list cEfUFRb" bind-click="desClick" __cid="cEfUFRb"> 
+            <span xid="span15" class="m-fabuzhiwei-title cEfUFRb" __cid="cEfUFRb">个人简介</span>  
+            <span xid="span14" class="m-fabuzhiwei-choice cEfUFRb" __cid="cEfUFRb"> 
+              <i src="" alt="" xid="i5" class="icon-chevron-right m-fabuzhiwei-icon cEfUFRb" __cid="cEfUFRb"/>
+            </span> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 m-edit-input-box cEfUFRb" xid="labelEdit27" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cEfUFRb"> 
+            <label class="x-label m-fabuzhiwei-label cEfUFRb" xid="label29" __cid="cEfUFRb">个人邮箱</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit m-fabuzhiwei-input cEfUFRb" xid="input25" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入企业邮箱&quot;}" __cid="cEfUFRb"/>
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 m-edit-input-box cEfUFRb" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cEfUFRb"> 
+            <label class="x-label m-fabuzhiwei-label cEfUFRb" xid="label1" __cid="cEfUFRb">详细地址</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit m-fabuzhiwei-input cEfUFRb" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入公司详细地址&quot;}" __cid="cEfUFRb"/>
+          </div>  
+          <div xid="div3" class="clearfix m-fabuzhiwei-list cEfUFRb" bind-click="expClick" __cid="cEfUFRb"> 
+            <span xid="span9" class="m-fabuzhiwei-title cEfUFRb" __cid="cEfUFRb">工作经验</span>  
+            <span xid="span8" class="m-fabuzhiwei-choice cEfUFRb" __cid="cEfUFRb"> 
+              <i src="" alt="" xid="i2" class="icon-chevron-right m-fabuzhiwei-icon cEfUFRb" __cid="cEfUFRb"/>
+            </span> 
+          </div> 
+        </div>
+      </div>  
+      <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="salaryDialog" style="left:103px;top:198px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceive:salaryDialogReceive" data-config="{&quot;src&quot;:&quot;$model/UI2/weX5/job/recruPublish/salary.w&quot;,&quot;title&quot;:&quot;年薪&quot;}" __cid="cEfUFRb" class="cEfUFRb"> 
+        <result concept="salaryData" operation="edit" origin="salaryData" xid="default4" __cid="cEfUFRb" class="cEfUFRb"> 
+          <mapping from="id" to="" xid="default5" __cid="cEfUFRb" class="cEfUFRb"/>  
+          <mapping from="salary" to="" xid="default6" __cid="cEfUFRb" class="cEfUFRb"/>
+        </result>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cEfUFRb" __cid="cEfUFRb"/>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cEfUFRb" style="display:none;" __cid="cEfUFRb">
+          <xhtml:div class="x-dialog-title cEfUFRb" __cid="cEfUFRb">
+            <xhtml:button class="close cEfUFRb" __cid="cEfUFRb">
+              <xhtml:span __cid="cEfUFRb" class="cEfUFRb">×</xhtml:span>
+            </xhtml:button>
+            <xhtml:div class="x-dialog-title-text cEfUFRb" __cid="cEfUFRb">年薪</xhtml:div>
+          </xhtml:div>
+          <xhtml:div class="x-dialog-body cEfUFRb" __cid="cEfUFRb"/>
+        </xhtml:div>
+      </span>  
+      <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="desDialog" style="left:103px;top:198px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/weX5/job/recruPublish/description.w&quot;,&quot;title&quot;:&quot;描述&quot;}" __cid="cEfUFRb" class="cEfUFRb"> 
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cEfUFRb" __cid="cEfUFRb"/>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cEfUFRb" style="display:none;" __cid="cEfUFRb">
+          <xhtml:div class="x-dialog-title cEfUFRb" __cid="cEfUFRb">
+            <xhtml:button class="close cEfUFRb" __cid="cEfUFRb">
+              <xhtml:span __cid="cEfUFRb" class="cEfUFRb">×</xhtml:span>
+            </xhtml:button>
+            <xhtml:div class="x-dialog-title-text cEfUFRb" __cid="cEfUFRb">描述</xhtml:div>
+          </xhtml:div>
+          <xhtml:div class="x-dialog-body cEfUFRb" __cid="cEfUFRb"/>
+        </xhtml:div>
+      </span>  
+      <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="expDialog" style="left:103px;top:198px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/weX5/job/recruPublish/experience.w&quot;,&quot;title&quot;:&quot;经验&quot;}" __cid="cEfUFRb" class="cEfUFRb"> 
+        <result concept="salaryData" operation="edit" origin="salaryData" xid="default4" __cid="cEfUFRb" class="cEfUFRb"> 
+          <mapping from="id" to="" xid="default5" __cid="cEfUFRb" class="cEfUFRb"/>  
+          <mapping from="salary" to="" xid="default6" __cid="cEfUFRb" class="cEfUFRb"/>
+        </result>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cEfUFRb" __cid="cEfUFRb"/>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cEfUFRb" style="display:none;" __cid="cEfUFRb">
+          <xhtml:div class="x-dialog-title cEfUFRb" __cid="cEfUFRb">
+            <xhtml:button class="close cEfUFRb" __cid="cEfUFRb">
+              <xhtml:span __cid="cEfUFRb" class="cEfUFRb">×</xhtml:span>
+            </xhtml:button>
+            <xhtml:div class="x-dialog-title-text cEfUFRb" __cid="cEfUFRb">经验</xhtml:div>
+          </xhtml:div>
+          <xhtml:div class="x-dialog-body cEfUFRb" __cid="cEfUFRb"/>
+        </xhtml:div>
+      </span> 
+    </div>  
+    <div class="x-panel-bottom m-foot cEfUFRb" xid="bottom2" style="height:auto" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEfUFRb"> 
+      <a component="$model/UI2/system/components/justep/button/button" class="btn cEfUFRb" xid="button1" style="width:100%;background:#ea413c;color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;发布&quot;}" __cid="cEfUFRb"> 
+        <i xid="i1" __cid="cEfUFRb" class="cEfUFRb"/>  
+        <span xid="span16" __cid="cEfUFRb" class="cEfUFRb">发布</span>
+      </a> 
+    </div>
+    <style __cid="cEfUFRb" class="cEfUFRb">.x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbc25f0603b8641dd846f17726b0394b4-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

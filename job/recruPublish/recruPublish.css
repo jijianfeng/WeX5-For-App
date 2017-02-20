@@ -1,0 +1,20 @@
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+
+/*content*/
+.m-content{padding:10px;}
+
+/*divlist*/
+.m-fabuzhiwei-list{padding:15px 0px;border-bottom:1px solid #eee;color:#aaa;}
+.m-fabuzhiwei-title{float:left;}
+.m-fabuzhiwei-choice{float:right;color:black;}
+.m-fabuzhiwei-icon{color:#EA413C;}
+
+/*邮箱*/
+.m-edit-input-box{border-bottom:1px solid #eee;}
+.m-fabuzhiwei-label{color:#aaa;}
+
+/*input*/
+.m-fabuzhiwei-input{border:0px solid #eee;text-align:right;}
+
+/*bottom*/
+.m-foot{height:auto;padding:0px 10px;text-align: center;}

@@ -1,0 +1,69 @@
+h5 ,.h5{ color:#000; font-size:16px;}
+
+.text-danger{ color:#ea413c;}
+.text-black{ color:#000;}
+
+.x-panel-top .x-titlebar{ background-color:#ea413c;}
+.x-bar{ background-color:#e1e1e1; border:none;}
+.x-titlebar .x-titlebar-right .btn{ padding-left:30px;}
+.tb-img1{ width:100%; height:133px;}
+.img1{ height:200px;}
+.img3{ height:60px;}
+.img_new{ width:100px; height:70px;}
+.img_small{ height:15px;}
+.img_cloud{ height:30px;}
+
+.btn i{ font-size:20px;}
+
+.o-nomargintop{ margin-top:0;}
+
+
+/*导航 */
+.x-nav.x-row ,.x-nav .x-col{ padding:0; background-color:#fafafa;}
+.x-nav .x-col:nth-child(1){ height:41px; overflow:hidden;}
+.x-nav .x-col:nth-child(2){ width:50px;}
+.x-nav .x-col .x-navbox{ height:61px; overflow-x:scroll; overflow-y:hidden;}
+.x-nav .x-col .x-navbox .btn-group{ width:480px;}
+.x-nav .btn-group .btn{ height:41px; border-top:0; font-weight:normal; color:#999;}
+.x-nav .btn-group .btn.active{ height:41px; border-bottom:2px solid #ea413c; color:#ea413c; }
+.x-nav .navMoreBtn{ background-color:#e1e1e1;}
+
+
+/*弹出栏目*/
+.x-popOver-overlay{ background-color:#000;}
+.x-popOver-content{ border-radius:0;}
+
+.x-wangyiOver h5{ padding-left:15px;}
+.x-wangyiOver .x-titlebar{ height:40px; background-color:#f1f1f1;}
+.x-wangyiOver .x-navGroup{ padding-bottom:0;}
+.x-wangyiOver .x-navGroup .col-xs-3{ padding-left:3px; padding-right:3px; }
+.x-wangyiOver .x-navGroup .btn{ border-color:#ccc; border-radius:3px; margin-bottom:10px; color:#666; display:block;}
+.x-wangyiOver .x-navGroup .btn.active{ border-color:red; background-color:#ea413c; color:#fff;}
+
+/*搜索*/
+.x-seach{ background-color:#f6f6f6; display:none;}
+.x-seach span{ margin:10px 10px 0 0;}
+
+/*页脚按钮组*/
+.x-wangyi.btn-group{ background-color:#fff;}
+.x-wangyi.btn-group .btn{ border-top:0;}
+.x-wangyi.btn-group .btn span{ font-size:12px; font-weight:normal;}
+.x-card.btn-group .btn.active{ color:#ea413c; padding:0;border-top:0;}
+
+/*切换图片标题*/
+.x-banner{ overflow-x:hidden;}
+.x-banner .carousel-indicators{ bottom:20px; margin-left:10%;}
+.x-banner .carousel-indicators .active{ width:8px; height:8px;}
+.x-banner .carousel-indicators li{ width:6px; height:6px;}
+.x-banner .x-contents .x-contents-content .x-title{ background-color:#fff; padding:5px;}
+
+/*左右内边距*/
+.x-wangyi.panel{ margin-bottom:10px;}
+.x-wangyi.panel > .panel-heading .panel-title{ color:#333;}
+.x-wangyi .list-group-item{ border-radius:0;}
+.x-wangyi .list-group-item:last-child{ border-bottom:0;}
+
+.o-nomargin{ margin-left:0; margin-right:0;}
+.o-nopadding{ padding-left:0; padding-right:0;}
+
+

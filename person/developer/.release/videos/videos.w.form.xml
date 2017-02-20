@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cF3Mb2i" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cF3Mb2i" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-media.cF3Mb2i{padding-bottom: 10px} .m-videoimg.cF3Mb2i{width: 76px; height: 80px} .m-div10.cF3Mb2i{margin-top: 40px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cF3Mb2i" class="cF3Mb2i"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p323c60f4903f47bf8391360610c71d57-iosstatusbar cF3Mb2i" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cF3Mb2i"> 
+    <div class="x-panel-top cF3Mb2i" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cF3Mb2i"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cF3Mb2i" style="background-color:#EA413C;" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;看过的视频&quot;}" __cid="cF3Mb2i"> 
+        <div class="x-titlebar-left cF3Mb2i" xid="left1" __cid="cF3Mb2i"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cF3Mb2i" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cF3Mb2i"> 
+            <i class="icon-arrow-left-c cF3Mb2i" xid="i5" __cid="cF3Mb2i"/>
+          </a>
+        </div>  
+        <div class="x-titlebar-title cF3Mb2i" xid="title1" __cid="cF3Mb2i">看过的视频</div>  
+        <div class="x-titlebar-right  cF3Mb2i" xid="right1" __cid="cF3Mb2i">
+          <div class="empty cF3Mb2i" __cid="cF3Mb2i"/>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-scroll-view cF3Mb2i" xid="content1" _xid="C70F3671BA1000019E261AB610971330" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cF3Mb2i"> 
+      <div class="x-scroll cF3Mb2i" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cF3Mb2i"> 
+        <div class="x-scroll-content cF3Mb2i" xid="div5" __cid="cF3Mb2i"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cF3Mb2i" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;limit&quot;:10}" __cid="cF3Mb2i"> 
+            <ul class="x-list-template hide cF3Mb2i" xid="listTemplateUl1" __cid="cF3Mb2i"> 
+              <li xid="li1" class="list-group-item cF3Mb2i" bind-click="detailClick" __cid="cF3Mb2i"> 
+                <div class="media m-media cF3Mb2i" xid="div7" __cid="cF3Mb2i"> 
+                  <div class="media-left cF3Mb2i" xid="div3" __cid="cF3Mb2i"> 
+                    <img alt="" xid="image1" class="img-rounded media-object m-videoimg cF3Mb2i" src="$model/UI2/Hello/person/developer/images/111.png" __cid="cF3Mb2i"/>
+                  </div>  
+                  <div class="media-body cF3Mb2i" xid="div6" __cid="cF3Mb2i"> 
+                    <div class="text-muted cF3Mb2i" xid="div3" __cid="cF3Mb2i"> 
+                      <span xid="span4" __cid="cF3Mb2i" class="cF3Mb2i">第一章 初识WeX5</span>
+                    </div>  
+                    <div xid="div10" class="m-div10 cF3Mb2i" __cid="cF3Mb2i"> 
+                      <span xid="span2" __cid="cF3Mb2i" class="cF3Mb2i">已学</span>  
+                      <span xid="span1" __cid="cF3Mb2i" class="cF3Mb2i">20%</span>  
+                      <span xid="span5" class="block cF3Mb2i" style="padding:0px 5px;" __cid="cF3Mb2i"/>
+                      <span xid="span7" class="pull-right cF3Mb2i" __cid="cF3Mb2i"></span>
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-content-center x-pull-up cF3Mb2i" xid="div12" __cid="cF3Mb2i"> 
+          <span class="x-pull-up-label cF3Mb2i" xid="span3" __cid="cF3Mb2i">加载更多...</span>
+        </div> 
+      </div>
+    </div>  
+    <style __cid="cF3Mb2i" class="cF3Mb2i">.x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p323c60f4903f47bf8391360610c71d57-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

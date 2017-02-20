@@ -1,0 +1,12 @@
+[
+{"id":"1","title":"第一章","isChapter":"1","video_time":"0"},
+{"id":"2","title":"第一章视频一","isChapter":"0","video_time":"07:05"},
+{"id":"3","title":"第一章视频二","isChapter":"0","video_time":"07:05"},
+{"id":"4","title":"第一章视频三","isChapter":"0","video_time":"07:05"},
+{"id":"5","title":"第二章","isChapter":"1","video_time":"0"},
+{"id":"6","title":"第二章视频一","isChapter":"0","video_time":"07:05"},
+{"id":"7","title":"第二章视频二","isChapter":"0","video_time":"07:05"},
+{"id":"8","title":"第二章视频三","isChapter":"0","video_time":"07:05"},
+{"id":"9","title":"第三章","isChapter":"1","video_time":"0"},
+{"id":"10","title":"第三章视频一","isChapter":"0","video_time":"07:05"}
+]

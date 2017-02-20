@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cnInQjy" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnInQjy" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.h5.cnInQjy{line-height: 2; color: rgb(51, 51, 51)} .text-black.cnInQjy{color: rgb(51, 51, 51)} .text-white.cnInQjy{color: rgb(255, 255, 255)} .x-titlebar.cnInQjy{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .badge.cnInQjy{background-color: rgb(255, 119, 103)} .img1.cnInQjy{height: 200px} .img4.cnInQjy{width: 50px; height: 50px} .panel-heading.cnInQjy{border-color: rgb(225, 225, 225)} .x-nopadding.cnInQjy{padding-left: 0; padding-right: 0} .x-panel-bottom.cnInQjy{padding: 5px 10px} .x-panel-bottom.cnInQjy .input-group.cnInQjy .input-group-addon.cnInQjy{background-color: rgb(255, 255, 255); border-left: 0; border-right: 0; border-top: 0; border-radius: 0 0 0 8px} .x-panel-bottom.cnInQjy .input-group.cnInQjy .form-control.cnInQjy{width: auto; border-left: 0; border-right: 0; border-top: 0; border-radius: 0 0 8px 0} .x-panel-bottom.cnInQjy .input-group.cnInQjy .form-control.cnInQjy:focus{box-shadow: none; border-color: rgb(239, 239, 239)} .x-panel-bottom.cnInQjy .form-control-feedback.cnInQjy{right: 15px} .m-box.cnInQjy:last-child{margin-bottom: 0; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px} .m-box.cnInQjy:first-child{border-top-right-radius: 4px; border-top-left-radius: 4px} .m-box.cnInQjy{padding: 10px 15px; margin-bottom: -1px; background-color: rgb(255, 255, 255); border: 1px solid rgb(238, 238, 238)} .m-post-content.cnInQjy{padding: 10px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cnInQjy" class="cnInQjy"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar cnInQjy" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnInQjy"> 
+    <div class="x-panel-top cnInQjy" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnInQjy"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnInQjy" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cnInQjy"> 
+        <div class="x-titlebar-left text-white cnInQjy" __cid="cnInQjy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cnInQjy" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cnInQjy"> 
+            <i xid="i6" class="icon-arrow-left-c cnInQjy" __cid="cnInQjy"/>  
+            <span xid="span6" __cid="cnInQjy" class="cnInQjy">搜索</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cnInQjy" __cid="cnInQjy"/>  
+        <div class="x-titlebar-right  text-white cnInQjy" __cid="cnInQjy">
+          <div class="empty cnInQjy" __cid="cnInQjy"/>
+          <span xid="span13" class="badge cnInQjy" bind-text="$model.postData.count() +  &quot;跟贴&quot;" __cid="cnInQjy"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cnInQjy" _xid="C70E9023D060000195971C92F4702C60" style="background:#eee;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnInQjy"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cnInQjy" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cnInQjy"> 
+        <div class="x-contents-content active cnInQjy" xid="content1" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cnInQjy">
+          <div class="x-scroll cnInQjy" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cnInQjy"> 
+            <div class="x-scroll-content m-post-content cnInQjy" xid="div8" __cid="cnInQjy">
+              <div xid="div5" __cid="cnInQjy" class="cnInQjy">
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list cnInQjy" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;postData&quot;}" __cid="cnInQjy"> 
+                  <ul class="x-list-template hide cnInQjy" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cnInQjy"> 
+                    <li xid="li1" class="panel-heading cnInQjy" style="background:white;" __cid="cnInQjy">
+                      <div class="media cnInQjy" __cid="cnInQjy">
+                        <div class="media-left cnInQjy" __cid="cnInQjy"> 
+                          <img src="" alt="" bind-attr-src="$model.getImageUrl(val(&quot;fImg&quot;))" class="img4 cnInQjy" xid="image2" __cid="cnInQjy"/>
+                        </div>  
+                        <div class="media-body cnInQjy" xid="div1" __cid="cnInQjy"> 
+                          <span xid="span5" bind-text="ref('fName')" class="text-primary cnInQjy" __cid="cnInQjy"/>  
+                          <img xid="img9" src="$model/UI2/weX5_developer/img/preview_unlike_icon_highlighted.png" style="margin-right:15%;height:20px;width:22px;" class="pull-right cnInQjy" bind-click="img9Click" __cid="cnInQjy"/>  
+                          <span xid="span7" bind-text="ref('fNumber')" class="pull-right cnInQjy" style="margin-right:5%;" __cid="cnInQjy"/>  
+                          <div class="text-muted cnInQjy" xid="div2" __cid="cnInQjy"> 
+                            <span bind-text="ref('fTime')" xid="span1" __cid="cnInQjy" class="cnInQjy"/>
+                          </div>  
+                          <div bind-text=" $object.val(&quot;fContent&quot;)" xid="div4" __cid="cnInQjy" class="cnInQjy"/>
+                        </div>
+                      </div>
+                    </li>
+                  </ul> 
+                </div>
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up cnInQjy" xid="div9" __cid="cnInQjy"> 
+              <span class="x-pull-up-label cnInQjy" xid="span4" __cid="cnInQjy">加载更多...</span>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cnInQjy" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnInQjy"> 
+      <div class="input-group cnInQjy" __cid="cnInQjy"> 
+        <span class="input-group-addon cnInQjy" __cid="cnInQjy"> 
+          <i xid="i6" class="icon-edit text-muted cnInQjy" __cid="cnInQjy"/> 
+        </span>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-inputText cnInQjy" xid="content" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;回帖是种好习惯！&quot;}" __cid="cnInQjy"/>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label x-nopadding cnInQjy" xid="button10" bind-click="span9Click" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;发送&quot;}" __cid="cnInQjy"> 
+          <i xid="i8" __cid="cnInQjy" class="cnInQjy"/>  
+          <span class="text-muted cnInQjy" __cid="cnInQjy"/> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cnInQjy" class="cnInQjy">.x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p1ab3350120314289a36b40b4dd1f77ce-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

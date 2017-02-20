@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cmuIVBr" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmuIVBr" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/output/output,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-div3.cmuIVBr{padding-top: 20px 0px} .m-money.cmuIVBr:before{content: ""; font-family: "Ionicons"; position: relative; right: 5px; color: rgb(249, 210, 108)} .m-exp.cmuIVBr:before{content: ""; font-family: "Ionicons"; position: relative; right: 5px; color: rgb(70, 136, 71)} .m-location.cmuIVBr:before{content: ""; font-family: "Ionicons"; position: relative; right: 5px; color: rgb(47, 172, 237)} .m-text-center.cmuIVBr{text-align: center} .m-rowdiv.cmuIVBr{padding: 0px; border-top: 1px solid rgb(238, 238, 238); border-bottom: 1px solid rgb(238, 238, 238)} .m-row.cmuIVBr{padding: 0px} .m-blockdiv.cmuIVBr{width: 100%; height: 10px; background: rgb(244, 244, 244)} .m-paddingRL.cmuIVBr{padding: 0px 10px} .m-col.cmuIVBr{border-left: 1px solid rgb(238, 238, 238); border-right: 1px solid rgb(238, 238, 238)} .m-jobDetail-p.cmuIVBr{padding: 10px 0px; margin: 0px} .m-jobDetail-tagdiv.cmuIVBr{padding-bottom: 10px; padding-left: 0px; line-height: 18px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-content: flex-start} .m-jobDetail-tag.cmuIVBr{font-size: 10px; padding: 3px 5px; margin: 5px; border: 1px solid rgb(221, 221, 221); border-radius: 3px; margin-right: 8px} .m-jobDetail-imgBox.cmuIVBr{padding: 10px; display: flex; justify-content: center} .m-jobDetail-text.cmuIVBr{text-align: center} .m-jobDetail-require.cmuIVBr{padding: 10px 0px} .x-card.btn-group.cmuIVBr .btn.active.cmuIVBr{color: rgb(234, 65, 60)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cmuIVBr" class="cmuIVBr"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p0624c72264c44cd49e608656dbeea091-iosstatusbar cmuIVBr" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmuIVBr"> 
+    <div class="x-panel-top cmuIVBr" xid="top4" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmuIVBr">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmuIVBr" style="background-color:#EA413C;" xid="titleBar2" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;职位详情&quot;}" __cid="cmuIVBr"> 
+        <div class="x-titlebar-left cmuIVBr" xid="left3" __cid="cmuIVBr"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmuIVBr" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmuIVBr"> 
+            <i class="icon-chevron-left cmuIVBr" xid="i2" __cid="cmuIVBr"/>  
+            <span xid="span13" __cid="cmuIVBr" class="cmuIVBr"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cmuIVBr" xid="title3" __cid="cmuIVBr">职位详情</div>  
+        <div class="x-titlebar-right  cmuIVBr" xid="right3" __cid="cmuIVBr">
+          <div class="empty cmuIVBr" __cid="cmuIVBr"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cmuIVBr" xid="content5" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmuIVBr"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cmuIVBr" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cmuIVBr"> 
+        <div class="x-contents-content m-page active cmuIVBr" xid="yingping" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cmuIVBr"> 
+          <div xid="div3" class="m-div3 cmuIVBr" __cid="cmuIVBr"> 
+            <div xid="div5" class="m-jobDetail-imgBox cmuIVBr" __cid="cmuIVBr"> 
+              <img src="" alt="" xid="image1" style="height:56px;width:63px;" bind-attr-src=" $model.singleJob.val(&quot;imageUrl&quot;)" __cid="cmuIVBr" class="cmuIVBr"/>
+            </div>  
+            <p xid="p2" class="m-jobDetail-text cmuIVBr" bind-text=" $model.singleJob.val(&quot;job_name&quot;)" __cid="cmuIVBr"/>  
+            <p xid="p3" class="m-jobDetail-text cmuIVBr" bind-text=" $model.singleJob.val(&quot;publisher&quot;)" __cid="cmuIVBr"/>
+          </div>  
+          <div xid="div1" class=" m-rowdiv cmuIVBr" __cid="cmuIVBr"> 
+            <div component="$model/UI2/system/components/justep/row/row" class="x-row m-row cmuIVBr" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cmuIVBr"> 
+              <div class="x-col cmuIVBr" xid="col1" __cid="cmuIVBr"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center m-money cmuIVBr" xid="output2" bind-text="&quot;薪酬&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/>
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center cmuIVBr" xid="output1" bind-text="$model.singleJob.val(&quot;yearSalary&quot;)  +  &quot;万/年&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/> 
+              </div>  
+              <div class="x-col cmuIVBr" xid="col2" __cid="cmuIVBr"> 
+                <div xid="div9" class="m-col cmuIVBr" __cid="cmuIVBr"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center m-exp cmuIVBr" xid="output4" bind-text="&quot;工作经验&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/>
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center cmuIVBr" xid="output3" bind-text="$model.singleJob.val(&quot;experience&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/> 
+                </div> 
+              </div>  
+              <div class="x-col cmuIVBr" xid="col3" __cid="cmuIVBr"> 
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center m-location cmuIVBr" xid="output6" bind-text="&quot;工作地点&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/>
+                <div component="$model/UI2/system/components/justep/output/output" class="x-output m-text-center cmuIVBr" xid="output5" bind-text=" $model.singleJob.val(&quot;address&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cmuIVBr"/> 
+              </div> 
+            </div> 
+          </div>  
+          <div xid="div10" class="m-blockdiv cmuIVBr" __cid="cmuIVBr"/>  
+          <div xid="div2" class="m-paddingRL cmuIVBr" __cid="cmuIVBr"> 
+            <p xid="p1" class="m-jobDetail-p cmuIVBr" __cid="cmuIVBr">职位亮点</p>  
+            <div xid="div4" style="height:auto;" class="m-jobDetail-tagdiv cmuIVBr" __cid="cmuIVBr"> 
+              <span xid="span7" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">弹性工作</span>  
+              <span xid="span2" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">扁平管理</span>  
+              <span xid="span3" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">年底双薪</span>  
+              <span xid="span4" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">弹性工作</span>  
+              <span xid="span8" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">弹性工作</span>  
+              <span xid="span9" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">弹性工作</span>
+            </div>
+          </div>  
+          <div xid="div11" class="m-blockdiv cmuIVBr" __cid="cmuIVBr"/>  
+          <div xid="div6" class="m-paddingRL cmuIVBr" __cid="cmuIVBr"> 
+            <p xid="p4" class="m-jobDetail-p cmuIVBr" __cid="cmuIVBr">职位要求</p>  
+            <div xid="div7" class="m-jobDetail-tagdiv cmuIVBr" __cid="cmuIVBr"> 
+              <span xid="span5" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">本科学历</span>  
+              <span xid="span1" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">1年以上</span>  
+              <span xid="span6" class="m-jobDetail-tag cmuIVBr" __cid="cmuIVBr">普通话</span>
+            </div> 
+          </div>  
+          <div xid="div12" class="m-blockdiv cmuIVBr" __cid="cmuIVBr"/>  
+          <div xid="div8" class="m-paddingRL cmuIVBr" __cid="cmuIVBr"> 
+            <p xid="p5" class="m-jobDetail-p cmuIVBr" __cid="cmuIVBr">职位描述</p>  
+            <div xid="span11" class="m-jobDetail-require cmuIVBr" bind-html=" $model.singleJob.val(&quot;description&quot;)" __cid="cmuIVBr"/>
+          </div> 
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cmuIVBr" xid="bottom3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmuIVBr">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cmuIVBr" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cmuIVBr"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cmuIVBr" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-contact&quot;,&quot;label&quot;:&quot;开发商&quot;}" __cid="cmuIVBr"> 
+          <i xid="i1" class="icon-android-contact cmuIVBr" __cid="cmuIVBr"/>  
+          <span xid="span16" __cid="cmuIVBr" class="cmuIVBr">开发商</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cmuIVBr" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:setCollection" data-config="{&quot;icon&quot;:&quot;icon-android-star&quot;,&quot;label&quot;:&quot;收藏&quot;}" __cid="cmuIVBr"> 
+          <i xid="i3" class="icon-android-star cmuIVBr" __cid="cmuIVBr"/>  
+          <span xid="span14" bind-text=" $model.switchText(event)" __cid="cmuIVBr" class="cmuIVBr">收藏</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cmuIVBr" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:refuse" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;拒绝&quot;}" __cid="cmuIVBr"> 
+          <i xid="i3" class="icon-android-close cmuIVBr" __cid="cmuIVBr"/>  
+          <span xid="span15" __cid="cmuIVBr" class="cmuIVBr">拒绝</span>
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cmuIVBr" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:getJob" data-config="{&quot;icon&quot;:&quot;icon-navigate&quot;}" __cid="cmuIVBr"> 
+          <i xid="i4" class="icon-navigate cmuIVBr" __cid="cmuIVBr"/>  
+          <span xid="span12" __cid="cmuIVBr" class="cmuIVBr">接受</span>
+        </a> 
+      </div>
+    </div>
+    <style __cid="cmuIVBr" class="cmuIVBr">.x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p0624c72264c44cd49e608656dbeea091-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

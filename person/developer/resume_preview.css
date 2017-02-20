@@ -1,0 +1,45 @@
+
+/*表单*/
+.m-form{padding:0px 15px;}
+
+/*条目*/
+.m-label{text-align:left;}
+.m-avatar-img{width:80px;height:80px;}
+.m-resume-i{padding-right:5px;}
+.m-col-nopadding{padding:0px;margin:0px;}
+.appearance select.form-control{padding:0px 5px;}
+
+/*头部*/
+.m-headerBox{padding:20px;display:flex;flex-flow:column wrap;justify-content:center;align-items:center;border-bottom:1px solid #C7C7C7;}
+.m-span-block{height:10px;margin:0px 5px;border-right:1px solid #C7C7C7;}
+.m-div6{display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+.m-output-box{padding:0px;}
+
+/*底部按钮*/
+.m-foot{padding:0px 20px;text-align: center;height:auto;}
+
+.m-fabuzhiwei-list{padding:15px 0px;}
+.m-fabuzhiwei-choice{float:right;color:black;}
+.m-fabuzhiwei-icon{color:#EA413C;}
+.m-div2{padding-top:10px;}
+
+/*底部按钮*/
+.m-foot{padding:0px 20px;text-align: center;height:auto;}
+
+/*更改*/
+.m-select-box{padding:0px 5px;}
+.m-inout-disable{border:0px solid white;}
+
+/*个人描述*/
+.m-jobDetail-p{padding:10px 0px;margin:0px;}
+.m-jobDetail-require{padding:10px 0px;}
+
+.m-div2{padding-bottom:10px;}
+
+
+
+
+
+
+
+

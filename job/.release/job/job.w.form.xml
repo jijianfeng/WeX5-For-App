@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cRV3M7b" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cRV3M7b" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/bootstrap/tabs/tab,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/tabs/tabs,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-video-tab-ul.cRV3M7b{border: 0px} .m-video-tab-li.cRV3M7b{margin: 10px 0px} .nav-tabs.cRV3M7b &gt; li.m-video-tab-li.cRV3M7b &gt; a.cRV3M7b{width: 60px; margin: 0px; padding: 3px; border: 1px solid rgb(234, 65, 60); color: rgb(234, 65, 60)} .nav-tabs.cRV3M7b &gt; li.m-video-tab1.cRV3M7b &gt; a.cRV3M7b{border-top-left-radius: 5px; border-bottom-left-radius: 5px} .nav-tabs.cRV3M7b &gt; li.m-video-tab2.cRV3M7b &gt; a.cRV3M7b{border-top-right-radius: 5px; border-bottom-right-radius: 5px} .nav-tabs.cRV3M7b &gt; li.cRV3M7b &gt; a.cRV3M7b{border-radius: 0 0 0 0} .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b, .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b:hover, .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b:focus{background: rgb(234, 65, 60); color: rgb(255, 255, 255)} .nav-tabs.cRV3M7b &gt; li.m-video-tab-li.cRV3M7b &gt; a.cRV3M7b{width: 60px; margin: 0px; padding: 3px; border: 1px solid rgb(234, 65, 60); color: rgb(234, 65, 60)} .nav-tabs.cRV3M7b &gt; li.m-video-tab1.cRV3M7b &gt; a.cRV3M7b{border-top-left-radius: 5px; border-bottom-left-radius: 5px} .nav-tabs.cRV3M7b &gt; li.m-video-tab2.cRV3M7b &gt; a.cRV3M7b{border-top-right-radius: 5px; border-bottom-right-radius: 5px} .nav-tabs.cRV3M7b &gt; li.cRV3M7b &gt; a.cRV3M7b{border-radius: 0 0 0 0} .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b, .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b:hover, .nav-tabs.cRV3M7b &gt; li.active.cRV3M7b &gt; a.cRV3M7b:focus{background: rgb(234, 65, 60); color: rgb(255, 255, 255)} .m-joblist-tagdiv.cRV3M7b{padding: 10px; padding-left: 0px; line-height: 18px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-content: flex-start} .m-joblist-tag.cRV3M7b{font-size: 10px; padding: 3px; border: 1px solid rgb(221, 221, 221); border-radius: 3px; margin-right: 8px} .m-list-group-item.cRV3M7b{padding-bottom: 0px} .m-search-box.cRV3M7b{padding: 0px 5px} .m-h.cRV3M7b{color: black; font-size: 14px; font-weight: bold} .m-absolution.cRV3M7b{text-align: right; font-size: 14px; width: 100px} .m-publisher.cRV3M7b{color: rgb(85, 85, 85)} .m-time-exp.cRV3M7b{color: rgb(153, 153, 153)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cRV3M7b" class="cRV3M7b"></div>  
+  <div class="x-popOver-overlay cRV3M7b" xid="div13" __cid="cRV3M7b"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar cRV3M7b" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cRV3M7b"> 
+    <div class="x-panel-top cRV3M7b" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRV3M7b"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRV3M7b" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;求职与招聘&quot;}" __cid="cRV3M7b"> 
+        <div class="x-titlebar-left cRV3M7b" __cid="cRV3M7b"></div>  
+        <div class="x-titlebar-title cRV3M7b" __cid="cRV3M7b">求职与招聘</div>  
+        <div class="x-titlebar-right  cRV3M7b" __cid="cRV3M7b">
+          <div class="empty cRV3M7b" __cid="cRV3M7b"/>
+          <span xid="span1" style="font-size:small;" bind-click="publish" __cid="cRV3M7b" class="cRV3M7b">发布</span>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view  cRV3M7b" xid="content1" _xid="C706E2CB33100001519811103BD01A94" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRV3M7b"> 
+      <div component="$model/UI2/system/components/bootstrap/tabs/tabs" xid="tabs1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tabs'}" __cid="cRV3M7b" class="cRV3M7b"> 
+        <ul class="nav nav-tabs m-video-tab-ul cRV3M7b" xid="ul2" style="color:#FFFFFF;" __cid="cRV3M7b"> 
+          <li class="active m-video-tab1 m-video-tab-li cRV3M7b" xid="li7" style="width:50%;color:#400080;text-align:center;" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRV3M7b"> 
+            <a content="tabContent1" xid="tabItem4" class="pull-right cRV3M7b" __cid="cRV3M7b">招聘</a>
+          </li>  
+          <li role="presentation" xid="li8" style="width:50%;text-align:center;" class="m-video-tab2 m-video-tab-li cRV3M7b" component="$model/UI2/system/components/bootstrap/tabs/tab" data-bind="component:{name:'$model/UI2/system/components/bootstrap/tabs/tab'}" __cid="cRV3M7b"> 
+            <a content="tabContent2" xid="tabItem5" class="pull-left cRV3M7b" __cid="cRV3M7b">求职</a>
+          </li> 
+        </ul>  
+        <div class="tab-content cRV3M7b" xid="div1" __cid="cRV3M7b"> 
+          <div class="tab-pane active cRV3M7b" xid="tabContent1" __cid="cRV3M7b"> 
+            <div class="x-scroll cRV3M7b" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView5" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cRV3M7b"> 
+              <div class="x-scroll-content cRV3M7b" xid="div37" __cid="cRV3M7b"> 
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit cRV3M7b" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRV3M7b"> 
+                  <div class="x-edit m-search-box cRV3M7b" xid="div8" __cid="cRV3M7b"> 
+                    <div class="input-group cRV3M7b" xid="div9" style="background:white;" __cid="cRV3M7b"> 
+                      <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRV3M7b" style="border-right-style:none;" xid="input5" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;搜职位/公司&quot;}" __cid="cRV3M7b"/>  
+                      <div class="input-group-addon cRV3M7b" style="background-color:transparent;border-left-style:none;" xid="div11" __cid="cRV3M7b"> 
+                        <i class="icon-android-search cRV3M7b" xid="i3" __cid="cRV3M7b"/>
+                      </div> 
+                    </div> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list cRV3M7b" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;jobData&quot;}" __cid="cRV3M7b"> 
+                  <ul class="x-list-template hide cRV3M7b" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cRV3M7b"> 
+                    <li xid="li1" class="list-group-item m-list-group-item cRV3M7b" bind-click="detailClick" __cid="cRV3M7b"> 
+                      <div xid="div5" class="m-relation cRV3M7b" __cid="cRV3M7b"> 
+                        <div xid="div10" class="media-left cRV3M7b" __cid="cRV3M7b"> 
+                          <img alt="" xid="image1" class="img-rounded media-object cRV3M7b" style="width:75px;" height="80px" bind-attr-src=" $model.getImageUrl(  $object.val(&quot;imageUrl&quot;))" __cid="cRV3M7b"/>
+                        </div>  
+                        <div class="media-body cRV3M7b" xid="div14" __cid="cRV3M7b"> 
+                          <div class="pull-right text-muted m-absolution cRV3M7b" xid="div15" __cid="cRV3M7b"> 
+                            <span xid="span9" bind-text=" $model.infoData.val(&quot;expectedSalary&quot;)  +  &quot;万/年&quot;" style="color:#EA413C;" __cid="cRV3M7b" class="cRV3M7b"/> 
+                          </div>
+                          <h5 class="media-heading lead text-black m-h cRV3M7b" bind-text="ref('job')" xid="h51" __cid="cRV3M7b"/>  
+                          <div class="text-muted cRV3M7b" xid="div16" __cid="cRV3M7b"> 
+                            <span xid="span21" bind-text="ref('addUser')" class="m-publisher cRV3M7b" __cid="cRV3M7b"/> 
+                          </div>  
+                          <div __cid="cRV3M7b" class="cRV3M7b"> 
+                            <span xid="span22" bind-text="ref('addTime')" class="m-time-exp cRV3M7b" __cid="cRV3M7b"/>  
+                            <span xid="span23" bind-text="ref('description')" class="m-time-exp cRV3M7b" __cid="cRV3M7b"/> 
+                          </div> 
+                        </div> 
+                      </div>  
+                      <div xid="div6" class="m-joblist-tagdiv cRV3M7b" __cid="cRV3M7b"> 
+                        <span xid="span5" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">本科学历</span>  
+                        <span xid="span10" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">1年以上</span>  
+                        <span xid="span6" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">普通话</span>
+                      </div>
+                    </li> 
+                  </ul> 
+                </div> 
+              </div>  
+              <div class="x-content-center x-pull-up cRV3M7b" xid="div38" __cid="cRV3M7b"> 
+                <span class="x-pull-up-label cRV3M7b" xid="span17" __cid="cRV3M7b">加载更多...</span>
+              </div> 
+            </div> 
+          </div>  
+          <div class="tab-pane cRV3M7b" xid="tabContent2" __cid="cRV3M7b"> 
+            <div class="x-scroll cRV3M7b" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView5" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cRV3M7b"> 
+              <div class="x-scroll-content cRV3M7b" xid="div37" __cid="cRV3M7b"> 
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit cRV3M7b" xid="labelEdit7" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cRV3M7b"> 
+                  <div class="x-edit m-search-box cRV3M7b" xid="div8" __cid="cRV3M7b"> 
+                    <div class="input-group cRV3M7b" xid="div9" style="background:white;" __cid="cRV3M7b"> 
+                      <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cRV3M7b" style="border-right-style:none;" xid="input5" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;搜求职者&quot;}" __cid="cRV3M7b"/>  
+                      <div class="input-group-addon cRV3M7b" style="background-color:transparent;border-left-style:none;" xid="div11" __cid="cRV3M7b"> 
+                        <i class="icon-android-search cRV3M7b" xid="i3" __cid="cRV3M7b"/>
+                      </div> 
+                    </div> 
+                  </div> 
+                </div>  
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list cRV3M7b" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;infoData&quot;}" __cid="cRV3M7b"> 
+                  <ul class="x-list-template hide cRV3M7b" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cRV3M7b"> 
+                    <li xid="li1" class="list-group-item cRV3M7b" bind-click="infoClick" __cid="cRV3M7b"> 
+                      <div xid="div5" class="m-relation cRV3M7b" __cid="cRV3M7b"> 
+                        <div xid="div10" class="media-left cRV3M7b" __cid="cRV3M7b"> 
+                          <img alt="" xid="image1" class="img-rounded media-object cRV3M7b" style="width:75px;" height="80px" bind-attr-src=" $model.getImageUrl(  $model.infoData.val(&quot;imageUrl&quot;))" __cid="cRV3M7b"/>
+                        </div>  
+                        <div class="media-body cRV3M7b" xid="div14" __cid="cRV3M7b"> 
+                          <div class="pull-right text-muted m-absolution cRV3M7b" xid="div15" __cid="cRV3M7b"> 
+                            <span xid="span9" bind-text="ref('will_salary')" style="color:#EA413C;" __cid="cRV3M7b" class="cRV3M7b"/> 
+                          </div>
+                          <h5 class="media-heading lead text-black m-h cRV3M7b" bind-text="ref('addUser')" xid="h51" __cid="cRV3M7b"/>  
+                          <div class="text-muted cRV3M7b" xid="div16" __cid="cRV3M7b"> 
+                            <span xid="span21" bind-text="ref('expectedSalary')" class="m-publisher cRV3M7b" __cid="cRV3M7b"/> 
+                          </div>  
+                          <div __cid="cRV3M7b" class="cRV3M7b"> 
+                            <span xid="span22" bind-text="ref('add_time')" class="m-time-exp cRV3M7b" __cid="cRV3M7b"/>  
+                            <span xid="span23" bind-text="ref('userIntro')" class="m-time-exp cRV3M7b" __cid="cRV3M7b"/> 
+                          </div> 
+                        </div> 
+                      </div>  
+                      <div xid="div2" class="m-joblist-tagdiv cRV3M7b" __cid="cRV3M7b"> 
+                        <span xid="span3" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">本科学历</span>  
+                        <span xid="span4" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">1年以上</span>  
+                        <span xid="span2" class="m-joblist-tag cRV3M7b" __cid="cRV3M7b">普通话</span>
+                      </div>
+                    </li> 
+                  </ul> 
+                </div> 
+              </div>  
+              <div class="x-content-center x-pull-up cRV3M7b" xid="div38" __cid="cRV3M7b"> 
+                <span class="x-pull-up-label cRV3M7b" xid="span17" __cid="cRV3M7b">加载更多...</span>
+              </div> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cRV3M7b" class="cRV3M7b">.x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p60c01842a813492cbe2b7ac4e8873d4a-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

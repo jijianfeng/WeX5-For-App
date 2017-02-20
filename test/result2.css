@@ -1,0 +1,18 @@
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+.m-denglu{height:100px;margin-top:20px;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+.img1{ width:70px; height:70px;border-radius:50%; overflow:hidden;}
+.m-a-login-text{color:white;}
+.m-login-text{margin-left:10px;display:flex;flex-flow:column wrap;justify-content:space-between;align-items:flex-start;}
+
+/*中间的图片*/
+.m-center-img-box{display:flex;flex-flow:column wrap;justify-content:center;align-items:center;position:relative;}
+.m-center-img{width:175px;height:140px;}
+.m-text{position:relative;bottom:107px;right:5px;color:white;font-size:22px;}
+.m-img-title{position:relative;bottom:83px;color:#EA413C;font-weight:bold;font-size:16px;}
+
+/*button-group*/
+.m-button-group{display:flex;flex-flow:column wrap;justify-content:space-between;align-items:center;}
+.m-btn{width:140px;margin-top:20px;background-color:#EA413C;color:white;border-radius:20px;}
+
+
+

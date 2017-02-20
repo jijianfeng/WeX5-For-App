@@ -1,0 +1,16 @@
+.m-absolution{text-align:right;font-size:14px;width:100px;}
+.m-h{color:black;font-size:14px;font-weight:bold;}
+.m-publisher{color:#555;}
+.m-time-exp{color:#999;}
+.m-joblist-tagdiv{padding:10px;padding-left:0px;line-height:18px;display:flex;flex-flow:row wrap;justify-content:flex-start;align-content:flex-start;}
+.m-joblist-tag{font-size:10px;padding:3px;border:1px solid #dddddd;border-radius:3px;margin-right:8px;margin-bottom:8px;}
+.m-list-group-item{position:relative;padding-bottom:0px;}
+.m-div9{position:absolute;bottom:20px;right:20px;}
+
+/*审核中*/
+.m-shenhezhong{color:#3ABB16;}
+/*面试邀约*/
+.m-mianshi{color:orange;}
+/*简历回退*/
+.m-jianlihuitui{color:red;}
+

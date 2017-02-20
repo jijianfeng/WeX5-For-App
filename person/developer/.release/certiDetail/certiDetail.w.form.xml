@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cIZ3QRz" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cIZ3QRz" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.c-image.cIZ3QRz{width: 100%} .c-div.cIZ3QRz{width: 100%} .c-right-span.cIZ3QRz{margin-right: 0px} .c-left-span.cIZ3QRz{margin-left: 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cIZ3QRz" class="cIZ3QRz"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pd2df43453b26492e87946ac468bbfdd8-iosstatusbar cIZ3QRz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cIZ3QRz"> 
+    <div class="x-panel-top cIZ3QRz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cIZ3QRz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cIZ3QRz" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;证书详情&quot;}" __cid="cIZ3QRz"> 
+        <div class="x-titlebar-left cIZ3QRz" __cid="cIZ3QRz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cIZ3QRz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cIZ3QRz"> 
+            <i class="icon-chevron-left cIZ3QRz" __cid="cIZ3QRz"/>  
+            <span __cid="cIZ3QRz" class="cIZ3QRz"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cIZ3QRz" __cid="cIZ3QRz">证书详情</div>  
+        <div class="x-titlebar-right  cIZ3QRz" __cid="cIZ3QRz">
+          <div class="empty cIZ3QRz" __cid="cIZ3QRz"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cIZ3QRz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cIZ3QRz">
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cIZ3QRz" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;certiData&quot;}" __cid="cIZ3QRz"> 
+        <ul class="x-list-template hide cIZ3QRz" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cIZ3QRz"> 
+          <li xid="li1" __cid="cIZ3QRz" class="cIZ3QRz">
+            <div xid="div1" __cid="cIZ3QRz" class="cIZ3QRz">
+              <img class="c-image cIZ3QRz" src="" alt="" xid="image1" bind-attr-src=" $model.getImageUrl( $object.val(&quot;imgUrl&quot;))" __cid="cIZ3QRz"/>
+            </div>  
+            <h1 xid="h14" __cid="cIZ3QRz" class="cIZ3QRz"/>
+            <div xid="div2" __cid="cIZ3QRz" class="cIZ3QRz"> 
+              <div xid="div4" class="c-div cIZ3QRz" style="border-color:#C0C0C0 #C0C0C0 #C0C0C0 #C0C0C0;border-style:ridge dashed groove dashed;border-width:1px 0px 0px 0px;" __cid="cIZ3QRz">
+                <i xid="i1" class="icon-android-checkmark cIZ3QRz" __cid="cIZ3QRz"/>
+                <span xid="span1" class="c-left-div cIZ3QRz" __cid="cIZ3QRz">资格认证：</span>  
+                <span xid="span2" bind-text="ref('level')" class="c-right-div cIZ3QRz" __cid="cIZ3QRz"/>
+                <h1 xid="h11" __cid="cIZ3QRz" class="cIZ3QRz"/> 
+              </div>  
+              <div xid="div5" class="c-div cIZ3QRz" style="border-width:0px 0px 0px 0px;border-color:#C0C0C0 #C0C0C0 #C0C0C0 #C0C0C0;border-style:solid dashed solid dashed;" __cid="cIZ3QRz">
+                <i xid="i2" class="icon-android-checkmark cIZ3QRz" __cid="cIZ3QRz"/>
+                <span xid="span3" class="c-left-div cIZ3QRz" style="vertical-align:middle;" __cid="cIZ3QRz">考试分数：</span>  
+                <span xid="span4" bind-text="ref('score')" class="c-right-div cIZ3QRz" style="vertical-align:middle;" __cid="cIZ3QRz"/>
+                <h1 xid="h12" __cid="cIZ3QRz" class="cIZ3QRz"/> 
+              </div>  
+              <div xid="div6" class="c-div cIZ3QRz" __cid="cIZ3QRz">
+                <i xid="i3" class="icon-android-checkmark cIZ3QRz" __cid="cIZ3QRz"/>
+                <span xid="span5" class="c-left-div cIZ3QRz" __cid="cIZ3QRz">获得时间：</span>  
+                <span xid="span6" bind-text="ref('addTime')" class="c-right-div cIZ3QRz" __cid="cIZ3QRz"/> 
+              </div> 
+            </div> 
+          </li>
+        </ul> 
+      </div> 
+    </div>  
+    <style __cid="cIZ3QRz" class="cIZ3QRz">.x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd2df43453b26492e87946ac468bbfdd8-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

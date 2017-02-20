@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyaaEfa" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyaaEfa" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cyaaEfa{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .panel-heading.cyaaEfa{border-color: rgb(239, 239, 239)} .text-white.cyaaEfa{color: rgb(255, 255, 255)} .m-myrenzheng-content.cyaaEfa{display: flex; flex-flow: row wrap; justify-content: flex-start; align-items: flex-start} .m-myrenzheng.cyaaEfa{margin: 10px; width: 180px; text-align: center} .m-center-img-box.cyaaEfa{display: flex; flex-flow: column wrap; justify-content: center; align-items: center; position: relative} .m-center-img.cyaaEfa{width: 175px; height: 140px} .m-text.cyaaEfa{position: relative; bottom: 107px; right: 5px; color: white; font-size: 22px} .m-img-title.cyaaEfa{position: relative; bottom: 83px; color: rgb(234, 65, 60); font-weight: bold; font-size: 16px} .m-title.cyaaEfa{font-size: 16px; font-weight: bold}</xhtml:style>  
+  <div xid="div13" __cid="cyaaEfa" class="cyaaEfa"/>
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyaaEfa" class="cyaaEfa"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pb5191eff47224f169879dcae9ae21685-iosstatusbar cyaaEfa" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyaaEfa"> 
+    <div class="x-panel-top cyaaEfa" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyaaEfa">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyaaEfa" xid="titleBar1" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的认证&quot;}" __cid="cyaaEfa"> 
+        <div class="x-titlebar-left text-white cyaaEfa" xid="left1" __cid="cyaaEfa"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyaaEfa" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cyaaEfa"> 
+            <i xid="i6" class="icon-arrow-left-c cyaaEfa" __cid="cyaaEfa"/>  
+            <span xid="span6" __cid="cyaaEfa" class="cyaaEfa">搜索</span>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyaaEfa" xid="title1" __cid="cyaaEfa">我的认证</div>  
+        <div class="x-titlebar-right  text-white cyaaEfa" xid="right1" __cid="cyaaEfa">
+          <div class="empty cyaaEfa" __cid="cyaaEfa"/>
+        </div> 
+      </div>
+    </div>  
+    <div class="x-panel-content cyaaEfa" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyaaEfa">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyaaEfa" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cyaaEfa"> 
+        <div class="x-contents-content  active cyaaEfa" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyaaEfa"> 
+          <div xid="div10" class="m-myrenzheng-content cyaaEfa" __cid="cyaaEfa">
+            <div xid="div1" class="m-myrenzheng cyaaEfa" __cid="cyaaEfa">
+              <div xid="div3" class="m-center-img-box cyaaEfa" __cid="cyaaEfa"> 
+                <img src="$model/UI2/weX5/person/developer/img/success3.png" alt="" xid="image2" class="m-center-img cyaaEfa" __cid="cyaaEfa"/>  
+                <span xid="span3" class="m-text cyaaEfa" __cid="cyaaEfa">100</span>  
+                <span xid="span5" class="m-img-title cyaaEfa" __cid="cyaaEfa">wex5精英</span>
+              </div>  
+              <div xid="div2" __cid="cyaaEfa" class="cyaaEfa">
+                <span xid="span1" class="m-title cyaaEfa" __cid="cyaaEfa">初级资格认证</span> 
+              </div>
+            </div>
+            <div xid="div9" class="m-myrenzheng cyaaEfa" __cid="cyaaEfa"> 
+              <div xid="div7" class="m-center-img-box cyaaEfa" __cid="cyaaEfa"> 
+                <img src="$model/UI2/weX5/person/developer/img/success3.png" alt="" xid="image3" class="m-center-img cyaaEfa" __cid="cyaaEfa"/>  
+                <span xid="span10" class="m-text cyaaEfa" __cid="cyaaEfa">100</span>  
+                <span xid="span9" class="m-img-title cyaaEfa" __cid="cyaaEfa">wex5精英</span>
+              </div>  
+              <div xid="div8" __cid="cyaaEfa" class="cyaaEfa"> 
+                <span xid="span11" class="m-title cyaaEfa" __cid="cyaaEfa">中级资格认证</span>
+              </div> 
+            </div> 
+          </div> 
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cyaaEfa" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyaaEfa"/>
+    <style __cid="cyaaEfa" class="cyaaEfa">.x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb5191eff47224f169879dcae9ae21685-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

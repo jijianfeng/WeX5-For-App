@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyqM3ei" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyqM3ei" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cyqM3ei{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .m-content.cyqM3ei{padding: 10px} .m-fabuzhiwei-list.cyqM3ei{padding: 15px 0px; border-bottom: 1px solid rgb(238, 238, 238)} .m-fabuzhiwei-title.cyqM3ei{float: left} .m-fabuzhiwei-choice.cyqM3ei{float: right; color: black} .m-fabuzhiwei-icon.cyqM3ei{color: rgb(234, 65, 60)} .m-check-box.cyqM3ei{margin: 0px; padding: 0px} .m-check-box.cyqM3ei input[type="checkbox"].cyqM3ei{margin: 0px} .x-checkbox.cyqM3ei input[type="checkbox"].cyqM3ei:checked + label.cyqM3ei:before{background: rgb(234, 65, 60)} .m-mianyi-text.cyqM3ei{color: black; font-weight: bold} .m-foot.cyqM3ei{height: auto; padding: 0px 10px; text-align: center}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyqM3ei" class="cyqM3ei"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar cyqM3ei" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyqM3ei"> 
+    <div class="x-panel-top cyqM3ei" xid="top2" style="color:white;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyqM3ei"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyqM3ei" xid="titleBar1" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;年薪范围&quot;}" __cid="cyqM3ei"> 
+        <div class="x-titlebar-left text-white cyqM3ei" xid="left1" __cid="cyqM3ei"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cyqM3ei" xid="button6" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cyqM3ei"> 
+            <i xid="i6" class="icon-arrow-left-c cyqM3ei" __cid="cyqM3ei"/>  
+            <span xid="span6" __cid="cyqM3ei" class="cyqM3ei">搜索</span>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cyqM3ei" xid="title1" __cid="cyqM3ei">年薪范围</div>  
+        <div class="x-titlebar-right text-white cyqM3ei" xid="right1" __cid="cyqM3ei"/>
+      </div> 
+    </div>  
+    <div class="x-panel-content  cyqM3ei" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyqM3ei"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyqM3ei" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cyqM3ei"> 
+        <div class="x-contents-content m-content active cyqM3ei" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyqM3ei"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cyqM3ei" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;salaryData&quot;,&quot;limit&quot;:10}" __cid="cyqM3ei"> 
+            <ul class="x-list-template hide cyqM3ei" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="cyqM3ei"> 
+              <li xid="li2" bind-click="setSalary" __cid="cyqM3ei" class="cyqM3ei">
+                <div xid="div1" class="clearfix m-fabuzhiwei-list cyqM3ei" __cid="cyqM3ei"> 
+                  <span xid="span1" class="m-fabuzhiwei-title cyqM3ei" bind-text=" $object.val(&quot;salary&quot;)" __cid="cyqM3ei"/> 
+                </div>
+              </li>
+            </ul> 
+          </div>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom m-foot cyqM3ei" xid="bottom2" style="height:auto" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyqM3ei"></div>
+    <style __cid="cyqM3ei" class="cyqM3ei">.x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p72f27131570a4dc0849d05734eb2bcdd-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

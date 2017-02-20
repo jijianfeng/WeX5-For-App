@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cQfA3Ir" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cQfA3Ir" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.h5.cQfA3Ir{line-height: 2; color: rgb(33, 33, 33)} .text-black.cQfA3Ir{color: rgb(51, 51, 51)} .text-white.cQfA3Ir{color: rgb(255, 255, 255)} .o-img4.cQfA3Ir{width: 50px; height: 50px} .x-titlebar.cQfA3Ir{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .panel-heading.cQfA3Ir{border-color: rgb(239, 239, 239)} .o-nopadding.cQfA3Ir{padding-left: 0; padding-right: 0} .badge.cQfA3Ir{background-color: rgb(255, 119, 103)} .lead.cQfA3Ir{line-height: 36px; text-align: justify} .x-panel-bottom.cQfA3Ir{padding: 5px 10px} .x-panel-bottom.cQfA3Ir .input-group.cQfA3Ir .input-group-addon.cQfA3Ir{background-color: rgb(255, 255, 255); border-left: 0; border-right: 0; border-top: 0; border-radius: 0 0 0 8px} .x-panel-bottom.cQfA3Ir .input-group.cQfA3Ir .form-control.cQfA3Ir{width: auto; border-left: 0; border-right: 0; border-top: 0; border-radius: 0 0 8px 0} .x-panel-bottom.cQfA3Ir .input-group.cQfA3Ir .form-control.cQfA3Ir:focus{box-shadow: none; border-color: rgb(239, 239, 239)} .x-panel-bottom.cQfA3Ir .form-control-feedback.cQfA3Ir{right: 15px} .m-baoming-box.cQfA3Ir{width: 50px; height: 50px; position: fixed; bottom: 50px; right: 15px; border-radius: 50%; background: rgb(234, 65, 60); color: white; display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .already.cQfA3Ir{width: 50px; height: 50px; position: fixed; bottom: 50px; right: 15px; border-radius: 50%; background: rgb(204, 204, 204); color: white; display: flex; flex-flow: row wrap; justify-content: center; align-items: center}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cQfA3Ir" class="cQfA3Ir"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar cQfA3Ir" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQfA3Ir"> 
+    <div class="x-panel-top cQfA3Ir" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:49}" __cid="cQfA3Ir"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cQfA3Ir" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cQfA3Ir"> 
+        <div class="x-titlebar-left text-white cQfA3Ir" __cid="cQfA3Ir"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cQfA3Ir" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;搜索&quot;}" __cid="cQfA3Ir"> 
+            <i xid="i6" class="icon-arrow-left-c cQfA3Ir" __cid="cQfA3Ir"/>  
+            <span xid="span6" __cid="cQfA3Ir" class="cQfA3Ir">搜索</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cQfA3Ir" __cid="cQfA3Ir"/>  
+        <div class="x-titlebar-right  text-white cQfA3Ir" __cid="cQfA3Ir">
+          <div class="empty cQfA3Ir" __cid="cQfA3Ir"/>
+          <a class="pull-right cQfA3Ir" __cid="cQfA3Ir">
+            <span bind-click="postClick" class="badge cQfA3Ir" __cid="cQfA3Ir">1跟帖</span>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-cards panel-body cQfA3Ir" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQfA3Ir"> 
+      <h3 class=" text-black cQfA3Ir" xid="title" bind-text="detail.ref('title')" __cid="cQfA3Ir">title</h3>  
+      <div class="h6 text-muted cQfA3Ir" __cid="cQfA3Ir"> 
+        <span __cid="cQfA3Ir" class="cQfA3Ir">超级管理员</span>  
+        <span bind-text=" $model.detail.val(&quot;addTime&quot;)" __cid="cQfA3Ir" class="cQfA3Ir">10-12 09：31</span> 
+      </div>  
+      <div class="h6 cQfA3Ir" __cid="cQfA3Ir"> 
+        <img alt="" class="img-responsive cQfA3Ir" bind-attr-src="detail.ref('imageUrl')" __cid="cQfA3Ir"/> 
+      </div>  
+      <div class="text-black lead cQfA3Ir" bind-html=" $model.detail.val(&quot;content&quot;)" __cid="cQfA3Ir">内容</div>  
+      <div class="h5 cQfA3Ir" __cid="cQfA3Ir"> 
+        <span __cid="cQfA3Ir" class="cQfA3Ir">来源：</span>  
+        <span __cid="cQfA3Ir" class="cQfA3Ir">WeX5官网</span> 
+      </div>  
+      <div class="list-group cQfA3Ir" xid="listGroup1" __cid="cQfA3Ir"> 
+        <div class="list-group-item cQfA3Ir" __cid="cQfA3Ir"> 
+          <div class="panel-heading o-nopadding cQfA3Ir" bind-text="'分享到'" __cid="cQfA3Ir"/>  
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row text-center text-muted panel-body x-nomargin o-nopadding cQfA3Ir" xid="row1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cQfA3Ir"> 
+            <div class="col col-xs-3 o-nopadding cQfA3Ir" xid="col5" __cid="cQfA3Ir"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('../img/detail1.png')" class="o-img4 cQfA3Ir" xid="image5" __cid="cQfA3Ir"/>  
+              <div bind-text="'易信朋友圈'" xid="div5" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+            </div>  
+            <div class="col col-xs-3 o-nopadding cQfA3Ir" xid="col6" __cid="cQfA3Ir"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('../img/detail2.png')" class="o-img4 cQfA3Ir" xid="image6" __cid="cQfA3Ir"/>  
+              <div bind-text="'微信朋友圈'" xid="div6" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+            </div>  
+            <div class="col col-xs-3 o-nopadding cQfA3Ir" xid="col7" __cid="cQfA3Ir"> 
+              <img src="" alt="" xid="image4" bind-attr-src="$model.getImageUrl('../img/detail3.png')" class="o-img4 cQfA3Ir" __cid="cQfA3Ir"/>  
+              <div bind-text="'新浪微博'" xid="div7" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+            </div>  
+            <div class="col col-xs-3 o-nopadding cQfA3Ir" xid="col8" __cid="cQfA3Ir"> 
+              <img src="" alt="" xid="image4" bind-attr-src="$model.getImageUrl('../img/detail4.png')" class="o-img4 cQfA3Ir" __cid="cQfA3Ir"/>  
+              <div bind-text="'更多'" xid="div8" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+            </div> 
+          </div> 
+        </div> 
+      </div>  
+      <div class="list-group cQfA3Ir" xid="listGroup2" __cid="cQfA3Ir"> 
+        <div class="list-group-item cQfA3Ir" __cid="cQfA3Ir"> 
+          <div class="panel-heading o-nopadding cQfA3Ir" bind-text="'热门跟帖'" __cid="cQfA3Ir"/>  
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cQfA3Ir" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;postData&quot;,&quot;disableInfiniteLoad&quot;:true,&quot;disablePullToRefresh&quot;:true,&quot;limit&quot;:2}" __cid="cQfA3Ir"> 
+            <ul class="x-list-template hide cQfA3Ir" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cQfA3Ir"> 
+              <li xid="li1" class="panel-heading o-nopadding cQfA3Ir" __cid="cQfA3Ir"> 
+                <div class="media cQfA3Ir" __cid="cQfA3Ir"> 
+                  <div class="media-left cQfA3Ir" __cid="cQfA3Ir"> 
+                    <img src="" alt="" bind-attr-src="$model.getImageUrl(val(&quot;fImg&quot;))" class="o-img4 cQfA3Ir" xid="image2" __cid="cQfA3Ir"/> 
+                  </div>  
+                  <div class="media-body cQfA3Ir" __cid="cQfA3Ir"> 
+                    <span xid="span5" bind-text="ref('fName')" class="text-primary cQfA3Ir" __cid="cQfA3Ir"/>  
+                    <img xid="img9" src="$model/UI2/Hello/img/preview_unlike_icon_highlighted.png" style="margin-right:5%;height:20px;width:22px;" class="pull-right cQfA3Ir" bind-click="img9Click" __cid="cQfA3Ir"/>  
+                    <span xid="span7" bind-text="ref('fNumber')" class="pull-right cQfA3Ir" style="margin-right:5%;" __cid="cQfA3Ir"/>  
+                    <div class="text-muted cQfA3Ir" __cid="cQfA3Ir"> 
+                      <span bind-text="ref('fTime')" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+                    </div>  
+                    <div bind-text=" $object.val(&quot;fContent&quot;)" __cid="cQfA3Ir" class="cQfA3Ir"/> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified cQfA3Ir" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cQfA3Ir"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cQfA3Ir" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:postClick" data-config="{&quot;label&quot;:&quot;查看更多跟帖&quot;}" __cid="cQfA3Ir"> 
+              <i xid="i3" __cid="cQfA3Ir" class="cQfA3Ir"/>  
+              <span xid="span12" class="text-muted cQfA3Ir" __cid="cQfA3Ir">查看更多跟帖</span> 
+            </a> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cQfA3Ir" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQfA3Ir"> 
+      <div class="input-group cQfA3Ir" __cid="cQfA3Ir"> 
+        <span class="input-group-addon cQfA3Ir" __cid="cQfA3Ir"> 
+          <i xid="i6" class="icon-edit text-muted cQfA3Ir" __cid="cQfA3Ir"/> 
+        </span>  
+        <input component="$model/UI2/system/components/justep/input/input" class="form-control x-inputText cQfA3Ir" xid="nameInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cQfA3Ir"/> 
+      </div>  
+      <span class="form-control-feedback cQfA3Ir" aria-hidden="true" __cid="cQfA3Ir"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label o-nopadding cQfA3Ir" xid="button9" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;发送&quot;}" __cid="cQfA3Ir"> 
+          <i xid="i8" __cid="cQfA3Ir" class="cQfA3Ir"/>  
+          <span class="text-muted cQfA3Ir" __cid="cQfA3Ir">发送</span> 
+        </a> 
+      </span>  
+      <span xid="span18" class="m-baoming-box cQfA3Ir" bind-css="{'m-baoming-box' :$model.activityData.val(&quot;already&quot;) == '0','already' :  $model.activityData.val(&quot;already&quot;) == '1'}" bind-click="bmClick" __cid="cQfA3Ir">报名</span> 
+    </div>  
+    <style __cid="cQfA3Ir" class="cQfA3Ir">.x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-top {height: 49px;}.x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-content { top: 49px;bottom: nullpx;}.x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-top {height: 69px;}.iosstatusbar .x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-content { top: 69px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-top {height: 49px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pffa50a4fef3d4e58b7d8d7b809048729-iosstatusbar &gt;.x-panel-content {top: 49px;}</style>
+  </div> 
+</div>

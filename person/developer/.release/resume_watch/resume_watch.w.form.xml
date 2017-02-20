@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cnmeQzq" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnmeQzq" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/output/output,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-form.cnmeQzq{padding: 0px 15px} .m-label.cnmeQzq{text-align: left} .m-avatar-img.cnmeQzq{width: 80px; height: 80px} .m-resume-i.cnmeQzq{padding-right: 5px} .m-col-nopadding.cnmeQzq{padding: 0px; margin: 0px} .appearance.cnmeQzq select.form-control.cnmeQzq{padding: 0px 5px} .m-headerBox.cnmeQzq{padding: 20px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center; border-bottom: 1px solid rgb(199, 199, 199)} .m-span-block.cnmeQzq{height: 10px; margin: 0px 5px; border-right: 1px solid rgb(199, 199, 199)} .m-div6.cnmeQzq{display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-output-box.cnmeQzq{padding: 0px} .m-foot.cnmeQzq{padding: 0px 20px; text-align: center; height: auto} .m-fabuzhiwei-list.cnmeQzq{padding: 15px 0px} .m-fabuzhiwei-choice.cnmeQzq{float: right; color: black} .m-fabuzhiwei-icon.cnmeQzq{color: rgb(234, 65, 60)} .m-div2.cnmeQzq{padding-top: 10px} .m-foot.cnmeQzq{padding: 0px 20px; text-align: center; height: auto} .m-select-box.cnmeQzq{padding: 0px 5px} .m-inout-disable.cnmeQzq{border: 0px solid white} .m-jobDetail-p.cnmeQzq{padding: 10px 0px; margin: 0px} .m-jobDetail-require.cnmeQzq{padding: 10px 0px} .m-div2.cnmeQzq{padding-bottom: 10px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cnmeQzq" class="cnmeQzq"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar cnmeQzq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnmeQzq"> 
+    <div class="x-panel-top cnmeQzq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnmeQzq"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnmeQzq" style="background-color:#EA413C;" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;个人简历&quot;}" __cid="cnmeQzq"> 
+        <div class="x-titlebar-left cnmeQzq" xid="left1" __cid="cnmeQzq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cnmeQzq" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cnmeQzq"> 
+            <i class="icon-arrow-left-c cnmeQzq" xid="i3" __cid="cnmeQzq"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cnmeQzq" xid="title1" __cid="cnmeQzq">个人简历</div>  
+        <div class="x-titlebar-right  cnmeQzq" xid="right1" __cid="cnmeQzq">
+          <div class="empty cnmeQzq" __cid="cnmeQzq"/>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-content cnmeQzq" xid="content1" style="bottom:38px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnmeQzq"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cnmeQzq" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;resume_data&quot;}" __cid="cnmeQzq"> 
+        <ul class="x-list-template hide cnmeQzq" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cnmeQzq"> 
+          <li xid="li1" __cid="cnmeQzq" class="cnmeQzq">
+            <div xid="div3" class="m-form cnmeQzq" __cid="cnmeQzq"> 
+              <div xid="div1" class="m-headerBox cnmeQzq" __cid="cnmeQzq"> 
+                <img alt="" xid="image1" class="m-avatar-img cnmeQzq" bind-attr-src="$model.getImageUrl( $object.val(&quot;img&quot;))" __cid="cnmeQzq"/>  
+                <div xid="div5" __cid="cnmeQzq" class="cnmeQzq"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output cnmeQzq" xid="output1" bind-text=" $object.val(&quot;name&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div xid="div6" class="m-div6 cnmeQzq" __cid="cnmeQzq"> 
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-output-box cnmeQzq" xid="output2" bind-text="$object.val(&quot;sex&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-span-block m-output-box cnmeQzq" xid="output4" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-output-box cnmeQzq" xid="output3" bind-text=" $object.val(&quot;age&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div> 
+              </div>  
+              <div xid="div2" class="m-div2 cnmeQzq" __cid="cnmeQzq">
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit16" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label13" __cid="cnmeQzq">联系方式</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output8" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;phone&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit15" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label12" __cid="cnmeQzq">邮箱</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output7" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;mail&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit17" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label14" __cid="cnmeQzq">现居地点</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output9" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;location&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit18" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label15" __cid="cnmeQzq">学历</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output10" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;edu&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit19" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label16" __cid="cnmeQzq">毕业学校</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output11" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;school&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit20" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label17" __cid="cnmeQzq">专业</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output12" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;major&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit21" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label18" __cid="cnmeQzq">工作经验</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output13" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;exp&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit22" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label19" __cid="cnmeQzq">期望职业</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output14" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;expect_job&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit23" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label20" __cid="cnmeQzq">期望职薪</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output15" style="padding:5px 5px 5px 0px;" bind-text="$object.val(&quot;expect_money&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cnmeQzq" xid="labelEdit24" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cnmeQzq"> 
+                  <label class="x-label m-label cnmeQzq" xid="label21" __cid="cnmeQzq">个人标签</label>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output x-edit m-inout-disable cnmeQzq" xid="output16" style="padding:5px 5px 5px 0px;" bind-text=" $object.val(&quot;person_label&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>  
+                <div xid="div8" class="m-paddingRL cnmeQzq" __cid="cnmeQzq"> 
+                  <p xid="p5" class="m-jobDetail-p cnmeQzq" __cid="cnmeQzq">个人描述</p>  
+                  <div component="$model/UI2/system/components/justep/output/output" class="x-output m-inout-disable cnmeQzq" xid="output17" style="padding:5px 0px;" bind-text=" $object.val(&quot;describe&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cnmeQzq"/>
+                </div>
+              </div> 
+            </div>
+          </li>
+        </ul> 
+      </div>
+    </div>  
+    <div class="x-panel-bottom m-foot cnmeQzq" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnmeQzq"></div>  
+    <style __cid="cnmeQzq" class="cnmeQzq">.x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pf07b9b3074be484c9ab0ff4e1de4fe9c-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

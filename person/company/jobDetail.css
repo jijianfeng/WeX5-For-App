@@ -1,0 +1,53 @@
+.m-div3{padding-top:20px 0px;}
+
+.m-text-center{text-align:center;}
+.m-rowdiv{padding:0px;border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee;}
+.m-row{padding:0px;}
+
+/*头部box 图片和<p>*/
+.m-jobDetail-imgBox{padding:10px;display:flex;justify-content:center;}
+.m-jobDetail-text{margin-bottom:5px;text-align:center;}
+
+/*图标*/
+.m-money::before{content: "\f2af";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#F9D26C;}
+.m-exp::before{content: "\f26c";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#468847;}
+.m-location::before{content: "\f1a5";box-sizing-borde-box;font-family:"Ionicons";position: relative;right: 5px;color:#2FACED;}
+
+/*期望工资 经验 现居地点*/
+.m-div6{padding-bottom:5px;display:flex;flex-flow:column wrap;justify-content:center;align-items:center;}
+.m-output-box{padding:0px;}
+
+/*条目*/
+.m-paddingRL{padding:0px 10px 10px 10px;}
+.m-col{border-left:1px solid #eeeeee;border-right:1px solid #eeeeee;}
+.m-jobDetail-p{padding:10px 0px;margin:0px;font-weight:600;color:#333;}
+.m-jobDetail-require{padding:10px 0px 10px 10px;}
+.m-blockdiv{width:100%;height:10px;	background:#eeeeee;}
+
+/*个人水平tag*/
+.m-jobDetail-tagdiv{padding-left:0px;line-height:18px;display:flex;flex-flow:row wrap;justify-content:flex-start;align-content:flex-start;}
+.m-jobDetail-tag{font-size:10px;padding:3px 5px;margin:5px;border:1px solid #dddddd;border-radius:3px;margin-right:8px;}
+
+/*底部点击颜色*/
+.x-card.btn-group .btn.active{color:#EA413C;}
+
+/*发布者*/
+/*li*/
+.m-list-group-item{padding-right:0px;padding-top:0px;margin-top:10px;position:relative;}
+
+/*文字*/
+.m-videolist-h5{padding:0px;font-size:14px;font-weight:600;color:#333;}
+.m-c-div11{display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;}
+.m-c-div12{display:flex;flex-flow:column wrap;justify-content:flex-start;align-items:flex-start;}
+.m-div6{padding-right:10px;}
+
+/*删除图标*/
+.m-delete{padding:2px;margin:2px;color:#EA413C;}
+
+
+.connected{
+	color:red;
+}
+.notConnected{
+}
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 c3MvUfy" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3MvUfy" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-white.c3MvUfy{color: rgb(255, 255, 255)} h5.c3MvUfy, .h5.c3MvUfy{color: rgb(0, 0, 0); font-size: 16px} .x-titlebar.c3MvUfy{height: 36px; background-color: rgb(234, 65, 60); border-bottom: 0} .btn.c3MvUfy i.c3MvUfy{font-size: 20px} .btn-group.c3MvUfy .btn.c3MvUfy span.c3MvUfy, .x-titlebar.c3MvUfy .btn.c3MvUfy span.c3MvUfy{font-size: 12px} .img1.c3MvUfy{width: 70px; height: 70px; border-radius: 50%; overflow: hidden} .o-user.c3MvUfy{height: 150px; background-color: rgb(234, 65, 60)} .panel.c3MvUfy{margin-bottom: 10px; border: 0} .list-group-item.c3MvUfy{padding-top: 3px; padding-bottom: 0px; border-left: 0; border-right: 0; border-radius: 0} .m-a-login-text.c3MvUfy{color: white}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onunLoad:modelUnLoad" __cid="c3MvUfy" class="c3MvUfy"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-has-iosstatusbar p1a9404ae99024330acddc762d9d77989-iosstatusbar c3MvUfy" xid="panel" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3MvUfy"> 
+    <div class="x-panel-content c3MvUfy" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3MvUfy"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c3MvUfy" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="c3MvUfy"> 
+        <div class="x-titlebar-left c3MvUfy" xid="div2" __cid="c3MvUfy"/>  
+        <div class="x-titlebar-title c3MvUfy" xid="div3" __cid="c3MvUfy"/>  
+        <div class="x-titlebar-right  c3MvUfy" xid="div4" __cid="c3MvUfy">
+          <div class="empty c3MvUfy" __cid="c3MvUfy"/>
+        </div> 
+      </div>  
+      <div class="text-center o-user c3MvUfy" __cid="c3MvUfy"> 
+        <img alt="" xid="image1" class="img1 c3MvUfy" bind-attr-src=" $model.switchImage()" __cid="c3MvUfy"/>  
+        <div xid="div1" class="h4 c3MvUfy" __cid="c3MvUfy"> 
+          <a xid="a1" class="text-white m-a-login-text c3MvUfy" bind-click="switchBtnClick(event)" bind-text=" $model.switchText()" __cid="c3MvUfy">立即登录</a> 
+        </div>  
+        <div xid="div5" bind-text="&quot;&quot;" class="h5 text-white c3MvUfy" __cid="c3MvUfy"/> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pbfca30510077415db9efb6ad719b34fc-iosstatusbar c3MvUfy" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3MvUfy"> 
+        <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified c3MvUfy" xid="buttonGroup3" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="c3MvUfy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top c3MvUfy" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button5Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-bookmarks-outline&quot;,&quot;label&quot;:&quot;认证&quot;}" __cid="c3MvUfy"> 
+            <i xid="i13" class="icon text-muted icon-ios7-bookmarks-outline c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span38" class="text-muted c3MvUfy" __cid="c3MvUfy">认证</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top c3MvUfy" xid="button7" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:toCollection" data-config="{&quot;icon&quot;:&quot;icon-ios7-star&quot;,&quot;label&quot;:&quot;收藏&quot;}" __cid="c3MvUfy"> 
+            <i xid="i14" class="icon text-muted icon-ios7-star c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span39" class="text-muted c3MvUfy" __cid="c3MvUfy">收藏</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top c3MvUfy" xid="button9" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-edit&quot;,&quot;label&quot;:&quot;跟帖&quot;}" __cid="c3MvUfy"> 
+            <i xid="i15" class="icon text-muted icon-edit c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span40" class="text-muted c3MvUfy" __cid="c3MvUfy">跟帖</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top c3MvUfy" xid="button10" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-settings&quot;,&quot;label&quot;:&quot;设置&quot;}" __cid="c3MvUfy"> 
+            <i xid="i16" class="icon text-muted icon-android-settings c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span41" class="text-muted c3MvUfy" __cid="c3MvUfy">设置</span> 
+          </a> 
+        </div>  
+        <style __cid="c3MvUfy" class="c3MvUfy">.x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbfca30510077415db9efb6ad719b34fc-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pfc2a640f357347b8964a78ca99d66a62-iosstatusbar c3MvUfy" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3MvUfy"> 
+        <div class="list-group-item c3MvUfy" bind-click="getVideos" __cid="c3MvUfy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button11" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+            <i xid="i17" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span14" __cid="c3MvUfy" class="c3MvUfy"/> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-photos&quot;}" __cid="c3MvUfy"> 
+            <i xid="i6" class="text-info icon-ios7-photos c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span13" __cid="c3MvUfy" class="c3MvUfy"/> 
+          </a>  
+          <span xid="span15" __cid="c3MvUfy" class="c3MvUfy">我看过的视频</span> 
+        </div>  
+        <div class="list-group-item c3MvUfy" xid="div7" bind-click="getDocs" __cid="c3MvUfy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+            <i xid="i4" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span5" __cid="c3MvUfy" class="c3MvUfy"/>
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-forums&quot;}" __cid="c3MvUfy"> 
+            <i xid="i5" class="text-success icon-android-forums c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span6" __cid="c3MvUfy" class="c3MvUfy"/>
+          </a>  
+          <span xid="span4" __cid="c3MvUfy" class="c3MvUfy">我看过的文档</span>
+        </div>
+        <div class="list-group-item c3MvUfy" xid="div6" bind-click="getActivities" __cid="c3MvUfy"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+            <i xid="i2" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span2" __cid="c3MvUfy" class="c3MvUfy"/>
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-friends&quot;}" __cid="c3MvUfy"> 
+            <i xid="i3" class="text-danger icon-android-friends c3MvUfy" __cid="c3MvUfy"/>  
+            <span xid="span3" __cid="c3MvUfy" class="c3MvUfy"/>
+          </a>  
+          <span xid="span1" __cid="c3MvUfy" class="c3MvUfy">我参加的活动</span>
+        </div>  
+        <style __cid="c3MvUfy" class="c3MvUfy">.x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pfc2a640f357347b8964a78ca99d66a62-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar c3MvUfy" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3MvUfy"> 
+        <ul xid="ul1" __cid="c3MvUfy" class="c3MvUfy"> 
+          <li class="list-group-item c3MvUfy" xid="li1" bind-click="infoClick" __cid="c3MvUfy"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button16" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+              <i xid="i29" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span23" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" xid="button17" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-edit&quot;}" __cid="c3MvUfy"> 
+              <i xid="i30" class="text-danger icon-edit c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span24" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <span xid="span22" __cid="c3MvUfy" class="c3MvUfy">开发商信息</span> 
+          </li>  
+          <li class="list-group-item c3MvUfy" xid="li1" bind-click="jobIPub" __cid="c3MvUfy"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button16" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:jobIPub" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+              <i xid="i29" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span23" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" xid="button17" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-calendar&quot;}" __cid="c3MvUfy"> 
+              <i xid="i30" class="text-danger icon-android-calendar c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span24" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <span xid="span22" __cid="c3MvUfy" class="c3MvUfy">我发布的职位</span> 
+          </li>  
+          <li class="list-group-item c3MvUfy" xid="li1" bind-click="peopleGotten" __cid="c3MvUfy"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right c3MvUfy" xid="button14" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3MvUfy"> 
+              <i xid="i27" class="icon-ios7-arrow-right text-muted c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span20" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c3MvUfy" xid="button15" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-android-hand&quot;}" __cid="c3MvUfy"> 
+              <i xid="i28" class="icon-android-hand c3MvUfy" __cid="c3MvUfy"/>  
+              <span xid="span21" __cid="c3MvUfy" class="c3MvUfy"/> 
+            </a>  
+            <span xid="span19" __cid="c3MvUfy" class="c3MvUfy">我招纳的人才</span> 
+          </li> 
+        </ul>  
+        <style __cid="c3MvUfy" class="c3MvUfy">.x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pab3a868ae0fd4a5b8344cae5bb10d77e-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div> 
+    </div>  
+    <style __cid="c3MvUfy" class="c3MvUfy">.x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p1a9404ae99024330acddc762d9d77989-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+  </div> 
+</div>

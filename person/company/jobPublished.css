@@ -1,0 +1,7 @@
+/*li*/
+.m-list-group-item{padding-right:0px;padding-top:0px;margin-top:10px;position:relative;}
+
+/*文字*/
+.m-videolist-h5{padding:0px;font-size:16px;font-weight:600;color:#333;}
+.m-c-div11{display:flex;flex-flow:row wrap;justify-content:space-between;align-items:center;}
+.m-c-div12{display:flex;flex-flow:column wrap;justify-content:flex-start;align-items:flex-start;}

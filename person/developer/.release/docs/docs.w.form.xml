@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cIjueMz" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cIjueMz" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-h.cIjueMz{font-wight: bold; color: black; font-size: 16px} .m-content.cIjueMz{padding: 10px} .m-doc-li.cIjueMz{border-bottom: 1px solid rgb(238, 238, 238)} .m-reader.cIjueMz{padding-left: 10px; color: rgb(170, 170, 170)} .m-article.cIjueMz{text-indent: 20px; word-wrap: break-word; word-break: break-all}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cIjueMz" class="cIjueMz"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar cIjueMz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cIjueMz"> 
+    <div class="x-panel-top cIjueMz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cIjueMz">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cIjueMz" style="background-color:#EA413C;" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;看过的文档&quot;}" __cid="cIjueMz"> 
+        <div class="x-titlebar-left cIjueMz" xid="left1" __cid="cIjueMz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cIjueMz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cIjueMz"> 
+            <i class="icon-arrow-left-c cIjueMz" xid="i1" __cid="cIjueMz"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cIjueMz" xid="title1" __cid="cIjueMz">看过的文档</div>  
+        <div class="x-titlebar-right  cIjueMz" xid="right1" __cid="cIjueMz">
+          <div class="empty cIjueMz" __cid="cIjueMz"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cIjueMz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cIjueMz">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cIjueMz" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cIjueMz"> 
+        <div class="x-contents-content active cIjueMz" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cIjueMz"> 
+          <div class="x-scroll cIjueMz" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cIjueMz"> 
+            <div class="x-scroll-content cIjueMz" xid="div7" __cid="cIjueMz">
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cIjueMz" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;docData&quot;}" __cid="cIjueMz"> 
+                <ul class="x-list-template hide cIjueMz" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cIjueMz"> 
+                  <li xid="li1" class="list-group-item cIjueMz" bind-click="docDetailClick" __cid="cIjueMz">
+                    <div xid="div2" bind-text=" $object.val(&quot;title&quot;)" __cid="cIjueMz" class="cIjueMz">
+                      <span xid="span1" class="m-h cIjueMz" __cid="cIjueMz">wex5发表新闻</span>
+                    </div>  
+                    <div xid="div3" class="m-reader cIjueMz" style="text-align:right;padding-right:10px;" __cid="cIjueMz">
+                      <span xid="span3" bind-text=" $object.val(&quot;isChapter&quot;)" __cid="cIjueMz" class="cIjueMz">18</span>  
+                      <span xid="span4" __cid="cIjueMz" class="cIjueMz">阅读</span>
+                    </div>
+                    <div xid="div4" class="m-article cIjueMz" __cid="cIjueMz">
+                      <span xid="span5" __cid="cIjueMz" class="cIjueMz"/>
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up cIjueMz" xid="div8" __cid="cIjueMz"> 
+              <span class="x-pull-up-label cIjueMz" xid="span7" __cid="cIjueMz">加载更多...</span>
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cIjueMz" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cIjueMz"/>
+    <style __cid="cIjueMz" class="cIjueMz">.x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9de05d3ffc3b4a3396b90e55977bf151-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

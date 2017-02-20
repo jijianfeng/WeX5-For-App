@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 c3mErmi" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c3mErmi" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.c3mErmi{color: rgb(0, 0, 0)} .text-danger.c3mErmi{color: rgb(234, 65, 60)} .x-titlebar.c3mErmi{background-color: rgb(234, 65, 60); font-size: 16px} .panel-heading.c3mErmi{border-color: rgb(239, 239, 239)} .img3.c3mErmi{width: 50px; height: 50px} .x-nopadding.c3mErmi{padding-left: 0; padding-right: 0} .input-group.c3mErmi i.c3mErmi{font-size: 24px} .input-group.c3mErmi .input-group-addon.c3mErmi{background-color: rgb(255, 255, 255); border: 0; border-radius: 0} .input-group.c3mErmi .form-control.c3mErmi{border: 0; border-radius: 0; color: rgb(153, 153, 153)} .input-group.c3mErmi .form-control.c3mErmi:focus{box-shadow: none; border-color: rgb(239, 239, 239)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c3mErmi" class="c3mErmi"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar pb94ba9b622164c919609917963155776-iosstatusbar c3mErmi" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c3mErmi"> 
+    <div class="x-panel-top c3mErmi" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3mErmi"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c3mErmi" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="c3mErmi"> 
+        <div class="x-titlebar-left c3mErmi" xid="div2" __cid="c3mErmi"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left c3mErmi" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;登录&quot;}" __cid="c3mErmi"> 
+            <i xid="i2" class="icon-arrow-left-c c3mErmi" __cid="c3mErmi"/>  
+            <span xid="span6" __cid="c3mErmi" class="c3mErmi">登录</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title c3mErmi" xid="div3" __cid="c3mErmi"/>  
+        <div class="x-titlebar-right  c3mErmi" xid="div4" __cid="c3mErmi">
+          <div class="empty c3mErmi" __cid="c3mErmi"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-cards panel-body c3mErmi" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c3mErmi"> 
+      <div xid="div1" class="list-group c3mErmi" __cid="c3mErmi"> 
+        <div class="list-group-item c3mErmi" __cid="c3mErmi"> 
+          <div class="input-group c3mErmi" xid="div7" __cid="c3mErmi"> 
+            <span class="input-group-addon c3mErmi" xid="span2" __cid="c3mErmi"> 
+              <i class="icon-ios7-contact c3mErmi" __cid="c3mErmi"/> 
+            </span>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-inputText c3mErmi" xid="nameInput" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;手机号&quot;}" __cid="c3mErmi"/> 
+          </div> 
+        </div>  
+        <div class="list-group-item c3mErmi" xid="div6" __cid="c3mErmi"> 
+          <div class="input-group c3mErmi" xid="div8" __cid="c3mErmi"> 
+            <span class="input-group-addon c3mErmi" xid="span3" __cid="c3mErmi"> 
+              <i class="icon-unlocked c3mErmi" xid="i3" __cid="c3mErmi"/> 
+            </span>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-inputText c3mErmi" xid="passwordInput" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;密码&quot;}" __cid="c3mErmi"/> 
+          </div> 
+        </div> 
+      </div>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn x-black btn-only-label btn-block c3mErmi" xid="loginIsmBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:loginIsmBtn" data-config="{&quot;label&quot;:&quot;登录&quot;}" __cid="c3mErmi"> 
+        <i xid="i4" __cid="c3mErmi" class="c3mErmi"/>  
+        <span xid="span4" __cid="c3mErmi" class="c3mErmi">登录</span> 
+      </a>  
+      <div class="panel-body c3mErmi" __cid="c3mErmi"/>  
+      <div class="text-muted c3mErmi" bind-text="'还可以选择以下方式登录'" __cid="c3mErmi"/>  
+      <div class="list-group c3mErmi" __cid="c3mErmi"> 
+        <div class="list-group-item c3mErmi" __cid="c3mErmi"> 
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row panel-heading text-center c3mErmi" xid="row1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="c3mErmi"> 
+            <div class="col col-xs-4 x-nopadding c3mErmi" xid="col5" __cid="c3mErmi"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('../img/user1.png')" class="img3 c3mErmi" xid="image2" bind-click="loginWeixinClicked" __cid="c3mErmi"/>  
+              <div bind-text="'微信账号登录'" class="text-muted c3mErmi" xid="div15" __cid="c3mErmi"/> 
+            </div>  
+            <div class="col col-xs-4 x-nopadding c3mErmi" xid="col6" __cid="c3mErmi"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('../img/user2.png')" class="img3 c3mErmi" xid="image1" bind-click="loginWeiboClick" __cid="c3mErmi"/>  
+              <div bind-text="'新浪微博登录'" class="text-muted c3mErmi" xid="div13" __cid="c3mErmi"/> 
+            </div>  
+            <div class="col col-xs-4 x-nopadding c3mErmi" xid="col7" __cid="c3mErmi"> 
+              <img src="" alt="" xid="image4" bind-attr-src="$model.getImageUrl('../img/user3.png')" class="img3 c3mErmi" bind-click="loginQQClick" __cid="c3mErmi"/>  
+              <div bind-text="'QQ账号登录'" class="text-muted c3mErmi" xid="div14" __cid="c3mErmi"/> 
+            </div> 
+          </div>  
+          <div class="h5 c3mErmi" bind-click="registeredClick" __cid="c3mErmi"> 
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon pull-right c3mErmi" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="c3mErmi"> 
+              <i xid="i1" class="icon-ios7-arrow-right text-muted c3mErmi" __cid="c3mErmi"/>  
+              <span xid="span5" __cid="c3mErmi" class="c3mErmi"/> 
+            </a>  
+            <span xid="span8" class="text-black c3mErmi" __cid="c3mErmi">没有账号？</span>  
+            <span class="text-danger c3mErmi" xid="span9" __cid="c3mErmi">赶紧注册吧</span> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="c3mErmi" class="c3mErmi">.x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pb94ba9b622164c919609917963155776-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cRNbQRz" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cRNbQRz" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-absolution.cRNbQRz{text-align: right; font-size: 14px; width: 100px} .m-h.cRNbQRz{color: black; font-size: 14px; font-weight: bold} .m-publisher.cRNbQRz{color: rgb(85, 85, 85)} .m-time-exp.cRNbQRz{color: rgb(153, 153, 153)} .m-joblist-tagdiv.cRNbQRz{padding: 10px; padding-left: 0px; line-height: 18px; display: flex; flex-flow: row wrap; justify-content: flex-start; align-content: flex-start} .m-joblist-tag.cRNbQRz{font-size: 10px; padding: 3px; border: 1px solid rgb(221, 221, 221); border-radius: 3px; margin-right: 8px; margin-bottom: 8px} .m-list-group-item.cRNbQRz{position: relative; padding-bottom: 0px} .m-div9.cRNbQRz{position: absolute; bottom: 20px; right: 20px} .m-shenhezhong.cRNbQRz{color: rgb(58, 187, 22)} .m-mianshi.cRNbQRz{color: orange} .m-jianlihuitui.cRNbQRz{color: red}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cRNbQRz" class="cRNbQRz"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p870e0531393a4027b3f530eaa1f4a599-iosstatusbar cRNbQRz" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cRNbQRz"> 
+    <div class="x-panel-top cRNbQRz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRNbQRz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRNbQRz" style="background-color:#EA413C;" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的应聘记录&quot;}" __cid="cRNbQRz"> 
+        <div class="x-titlebar-left cRNbQRz" xid="left1" __cid="cRNbQRz"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cRNbQRz" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cRNbQRz"> 
+            <i class="icon-arrow-left-c cRNbQRz" xid="i5" __cid="cRNbQRz"/>
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cRNbQRz" xid="title1" __cid="cRNbQRz">我的应聘记录</div>  
+        <div class="x-titlebar-right  cRNbQRz" xid="right1" __cid="cRNbQRz">
+          <div class="empty cRNbQRz" __cid="cRNbQRz"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cRNbQRz" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRNbQRz">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cRNbQRz" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cRNbQRz"> 
+        <div class="x-contents-content  x-scroll-view active cRNbQRz" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cRNbQRz">
+          <div class="x-scroll cRNbQRz" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cRNbQRz"> 
+            <div class="x-scroll-content cRNbQRz" xid="div2" __cid="cRNbQRz"> 
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cRNbQRz" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;recruRecord&quot;}" __cid="cRNbQRz"> 
+                <ul class="x-list-template hide cRNbQRz" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cRNbQRz"> 
+                  <li xid="li1" class="list-group-item m-list-group-item cRNbQRz" __cid="cRNbQRz">
+                    <div xid="div5" class="m-relation cRNbQRz" __cid="cRNbQRz"> 
+                      <div xid="div10" class="media-left cRNbQRz" __cid="cRNbQRz"> 
+                        <img alt="" xid="image1" class="img-rounded media-object cRNbQRz" style="width:75px;" height="80px" bind-attr-src=" $model.getImageUrl( $object.val(&quot;imageUrl&quot;))" __cid="cRNbQRz"/>
+                      </div>  
+                      <div class="media-body cRNbQRz" xid="div14" __cid="cRNbQRz"> 
+                        <div class="pull-right text-muted m-absolution cRNbQRz" xid="div15" __cid="cRNbQRz"> 
+                          <span xid="span9" style="color:#EA413C;" bind-text=" $object.val(&quot;yearSalary&quot;) + &quot;万/年&quot;" __cid="cRNbQRz" class="cRNbQRz"/>
+                        </div>  
+                        <h5 class="media-heading lead text-black m-h cRNbQRz" xid="h51" bind-text="ref('job')" __cid="cRNbQRz"/>  
+                        <div class="text-muted cRNbQRz" xid="div16" __cid="cRNbQRz"> 
+                          <span xid="span21" class="m-publisher cRNbQRz" bind-text="ref('addUser')" __cid="cRNbQRz"/>
+                        </div>  
+                        <div xid="div4" __cid="cRNbQRz" class="cRNbQRz"> 
+                          <span xid="span22" class="m-time-exp cRNbQRz" bind-text="ref('addTime')" __cid="cRNbQRz"/>  
+                          <span xid="span23" class="m-time-exp cRNbQRz" bind-text="ref('description')" __cid="cRNbQRz"/> 
+                        </div> 
+                      </div> 
+                    </div>  
+                    <div xid="div8" __cid="cRNbQRz" class="cRNbQRz"> 
+                      <div xid="div6" class="m-joblist-tagdiv cRNbQRz" __cid="cRNbQRz"> 
+                        <span xid="span5" class="m-joblist-tag cRNbQRz" __cid="cRNbQRz">本科学历</span>  
+                        <span xid="span10" class="m-joblist-tag cRNbQRz" __cid="cRNbQRz">1年以上</span>  
+                        <span xid="span6" class="m-joblist-tag cRNbQRz" __cid="cRNbQRz">普通话</span> 
+                      </div>
+                    </div>  
+                    <span xid="span14" class="m-div9 m-shenhezhong cRNbQRz" __cid="cRNbQRz">面试邀约</span>
+                  </li>
+                </ul> 
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up cRNbQRz" xid="div3" __cid="cRNbQRz"> 
+              <span class="x-pull-up-label cRNbQRz" xid="span3" __cid="cRNbQRz">加载更多...</span>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cRNbQRz" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRNbQRz"/>
+    <style __cid="cRNbQRz" class="cRNbQRz">.x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p870e0531393a4027b3f530eaa1f4a599-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

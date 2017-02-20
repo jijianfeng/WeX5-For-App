@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c6vUVZj" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c6vUVZj" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/textarea/textarea,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/select/select,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/input/input,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-foot.c6vUVZj{padding: 0px 20px; text-align: center; height: auto} .m-form.c6vUVZj{padding: 0px 15px} .m-label.c6vUVZj{text-align: left} .m-resume-i.c6vUVZj{padding-right: 5px} .m-col-nopadding.c6vUVZj{padding: 0px; margin: 0px} .m-select-box.c6vUVZj{padding: 0px 5px} .appearance.c6vUVZj select.form-control.c6vUVZj{padding: 0px 5px} .m-headerBox.c6vUVZj{padding: 20px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center; border-bottom: 1px solid rgb(199, 199, 199)} .m-span-block.c6vUVZj{height: 10px; margin: 0px 5px; border-right: 1px solid rgb(199, 199, 199)} .m-div6.c6vUVZj{display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .m-output-box.c6vUVZj{padding: 0px} .m-fabuzhiwei-list.c6vUVZj{padding: 15px 0px} .m-fabuzhiwei-choice.c6vUVZj{float: right; color: black} .m-fabuzhiwei-icon.c6vUVZj{color: rgb(234, 65, 60)} .m-div2.c6vUVZj{padding-top: 10px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c6vUVZj" class="c6vUVZj"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar c6vUVZj" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c6vUVZj"> 
+    <div class="x-panel-top c6vUVZj" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c6vUVZj"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c6vUVZj" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;简历详情&quot;}" __cid="c6vUVZj"> 
+        <div class="x-titlebar-left c6vUVZj" __cid="c6vUVZj"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon c6vUVZj" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;&quot;}" __cid="c6vUVZj"> 
+            <i class="icon-arrow-left-c c6vUVZj" xid="i1" __cid="c6vUVZj"/>
+          </a>
+        </div>  
+        <div class="x-titlebar-title c6vUVZj" __cid="c6vUVZj">简历详情</div>  
+        <div class="x-titlebar-right  c6vUVZj" __cid="c6vUVZj">
+          <div class="empty c6vUVZj" __cid="c6vUVZj"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c6vUVZj" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c6vUVZj">
+      <div xid="div3" class="m-form c6vUVZj" __cid="c6vUVZj">
+        <div xid="div1" class="m-headerBox c6vUVZj" __cid="c6vUVZj"> 
+          <img src="$model/UI2/weX5_developer/person/developer/&quot;./img/logo.png&quot;" alt="" xid="image1" __cid="c6vUVZj" class="c6vUVZj"/>  
+          <div xid="div5" __cid="c6vUVZj" class="c6vUVZj"> 
+            <div component="$model/UI2/system/components/justep/output/output" class="x-output c6vUVZj" xid="output1" bind-text="&quot;苦逼程序猿&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="c6vUVZj"/>
+          </div>  
+          <div xid="div6" class="m-div6 c6vUVZj" __cid="c6vUVZj"> 
+            <div component="$model/UI2/system/components/justep/output/output" class="x-output m-output-box c6vUVZj" xid="output2" bind-text="&quot;男&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="c6vUVZj"/>  
+            <div component="$model/UI2/system/components/justep/output/output" class="x-output m-span-block m-output-box c6vUVZj" xid="output4" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="c6vUVZj"/>
+            <div component="$model/UI2/system/components/justep/output/output" class="x-output m-output-box c6vUVZj" xid="output3" bind-text="&quot;23&quot;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="c6vUVZj"/> 
+          </div> 
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label3" __cid="c6vUVZj">学历</label>  
+          <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit c6vUVZj" xid="select1" bind-options="education.datas" bind-optionsCaption="'本科'" bind-optionsText="'education'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="c6vUVZj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label4" __cid="c6vUVZj">学校</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c6vUVZj" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请填写毕业学校&quot;}" __cid="c6vUVZj"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label1" __cid="c6vUVZj">专业</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c6vUVZj" xid="input29" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请填写专业&quot;}" __cid="c6vUVZj"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label2" __cid="c6vUVZj">工作经验</label>  
+          <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit c6vUVZj" xid="select2" bind-options="work_time.datas" bind-optionsCaption="'1年'" bind-optionsText="'work_time'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="c6vUVZj"/>
+        </div>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label7" __cid="c6vUVZj">期望行业</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c6vUVZj" xid="input3" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;期望行业&quot;}" __cid="c6vUVZj"/>
+        </div>
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 c6vUVZj" xid="labelEdit28" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="c6vUVZj"> 
+          <label class="x-label m-label c6vUVZj" xid="label30" __cid="c6vUVZj">期望职薪</label>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit c6vUVZj" xid="input26" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="c6vUVZj"/>
+          <select component="$model/UI2/system/components/justep/select/select" class="form-control x-edit c6vUVZj" xid="select4" bind-options="salary.datas" bind-optionsCaption="'月薪'" bind-optionsText="'salary'" bind-optionsAfterRender2="$model.__justep__.selectOptionsAfterRender.bind($model,$element)" bind-optionsBeforeRender="$model.__justep__.selectOptionsBeforeRender.bind($model,$element)" data-bind="component:{name:'$model/UI2/system/components/justep/select/select'}" __cid="c6vUVZj"/>
+        </div>  
+        <div xid="div4" class="clearfix m-fabuzhiwei-list c6vUVZj" __cid="c6vUVZj"> 
+          <span xid="span7" class="m-fabuzhiwei-title c6vUVZj" __cid="c6vUVZj">个人标签</span>  
+          <span xid="span12" class="m-fabuzhiwei-choice c6vUVZj" __cid="c6vUVZj"> 
+            <i src="" alt="" xid="i4" class="icon-chevron-right m-fabuzhiwei-icon c6vUVZj" __cid="c6vUVZj"/>
+          </span>
+        </div>
+        <div xid="div42" __cid="c6vUVZj" class="c6vUVZj"> 
+          <div xid="div43" class="m-div2 c6vUVZj" __cid="c6vUVZj"> 
+            <span xid="span40" __cid="c6vUVZj" class="c6vUVZj">个人描述：</span>
+          </div>
+          <textarea component="$model/UI2/system/components/justep/textarea/textarea" class="form-control c6vUVZj" xid="textarea3" data-bind="component:{name:'$model/UI2/system/components/justep/textarea/textarea'}" __cid="c6vUVZj"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom m-foot c6vUVZj" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c6vUVZj"> 
+      <a component="$model/UI2/system/components/justep/button/button" class="btn c6vUVZj" xid="button1" style="width:100%;background:#EA413C;color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;下一步&quot;}" __cid="c6vUVZj"> 
+        <i xid="i6" __cid="c6vUVZj" class="c6vUVZj"/>  
+        <span xid="span2" __cid="c6vUVZj" class="c6vUVZj">下一步</span>
+      </a>
+    </div>  
+    <style __cid="c6vUVZj" class="c6vUVZj">.x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p2c1170eaf6234247ba8bb82668aa66a7-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

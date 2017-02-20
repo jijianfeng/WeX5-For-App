@@ -1,0 +1,23 @@
+
+.m-content{padding:10px;}
+.m-av-img{width:50px;height:50px;margin:5px;}
+.m-center-time{padding:5px 0px;display:flex;flex-flow:row wrap;justify-content:center;align-items:center;}
+.m-talk-content1::before{height: 10px;width: 10px;display: block;content:"";position: absolute;left: -10px;top:5px;border-top: 8px solid  rgba(0,0,0,0);border-right: 8px solid #B4D4F4;border-bottom: 10px solid  rgba(0,0,0,0);}
+.m-talk-content2::after{height: 10px;width: 10px;display: block;content:"";position: absolute;right: -10px;top:5px;border-top: 8px solid  rgba(0,0,0,0);border-left: 8px solid #FFF7B2;border-bottom: 10px solid  rgba(0,0,0,0);}
+
+/*对面说的话*/
+.m-talk-box1{display:flex;flex-flow:row wrap;justify-content:flex-start;align-items:flex-start;}
+.m-talk-content1{padding:10px;margin:5px;line-height:30px;background:#B4D4F4;border:1px solid #B4D4F4;border-radius:4px;position:relative;top:10px;}
+
+/*我说的话*/
+.m-talk-box2{display:flex;flex-flow:row-reverse wrap;justify-content:flex-start;align-items:flex-start;}
+.m-talk-content2{padding:10px;margin:5px;line-height:30px;background:#FFF7B2;border:1px solid #FFF7B2;border-radius:4px;position:relative;top:10px;}
+
+/*备注 : 按post跟get进行区分("我"说的话是post,对面说的话是get 并把另一个隐藏)*/
+
+/*底部**/
+.x-panel-bottom{ padding:5px 10px;}
+.x-panel-bottom .input-group .input-group-addon{ background-color:#fff; border-left:0; border-right:0; border-top:0; border-radius:0 0 0 8px;}
+.x-panel-bottom .input-group .form-control{ width:auto; border-left:0; border-right:0; border-top:0; border-radius:0 0 8px 0;}
+.x-panel-bottom .input-group .form-control:focus{ box-shadow:none; border-color:#efefef;}
+.x-panel-bottom .form-control-feedback{ right:15px;}

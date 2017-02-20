@@ -1,0 +1,18 @@
+.text-white{ color:#fff;}
+
+h5 ,.h5{ color:#000; font-size:16px;}
+
+.x-titlebar{ height:36px; background-color:#ea413c; border-bottom:0;}
+
+.btn i{ font-size:20px;}
+.btn-group .btn span, .x-titlebar .btn span{ font-size:12px;}
+
+.img1{ width:70px; height:70px;border-radius:50%; overflow:hidden;}
+
+/*我的*/
+.o-user{ height:150px; background-color:#ea413c;}
+
+.panel{ margin-bottom:10px;border:0;}
+.list-group-item{ padding-top:3px; padding-bottom:0px; border-left:0; border-right:0; border-radius:0}
+
+.m-a-login-text{color:white;}

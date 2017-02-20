@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cAjI7Vb" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cAjI7Vb" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cAjI7Vb{background-color: rgb(234, 65, 60); color: rgb(119, 119, 119); border-bottom: 1px solid rgb(153, 153, 153)} .m-denglu.cAjI7Vb{height: 100px; margin-top: 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center} .img1.cAjI7Vb{width: 70px; height: 70px; border-radius: 50%; overflow: hidden} .m-a-login-text.cAjI7Vb{color: white} .m-login-text.cAjI7Vb{margin-left: 10px; display: flex; flex-flow: column wrap; justify-content: space-between; align-items: flex-start} .m-center-img-box.cAjI7Vb{display: flex; flex-flow: column wrap; justify-content: center; align-items: center; position: relative} .m-center-img.cAjI7Vb{width: 170px; height: 140px} .m-text.cAjI7Vb{position: relative; bottom: 90px; right: 15px; color: white; font-size: 16px; font-wight: bold} .m-button-group.cAjI7Vb{display: flex; flex-flow: column wrap; justify-content: space-between; align-items: center} .m-btn.cAjI7Vb{width: 140px; margin-top: 20px; background-color: rgb(234, 65, 60); color: white; border-radius: 20px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cAjI7Vb" class="cAjI7Vb"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar cAjI7Vb" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cAjI7Vb"> 
+    <div class="x-panel-top cAjI7Vb" xid="top2" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:49}" __cid="cAjI7Vb"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cAjI7Vb" xid="titleBar1" style="color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;考试结果&quot;}" __cid="cAjI7Vb"> 
+        <div class="x-titlebar-left text-white cAjI7Vb" xid="left1" __cid="cAjI7Vb"></div>  
+        <div class="x-titlebar-title cAjI7Vb" xid="title1" __cid="cAjI7Vb">考试结果</div>  
+        <div class="x-titlebar-right  text-white cAjI7Vb" xid="right1" __cid="cAjI7Vb">
+          <div class="empty cAjI7Vb" __cid="cAjI7Vb"/>
+        </div> 
+      </div> 
+    </div>
+    <div class="x-panel-content cAjI7Vb" xid="content1" style="background-color:#eee;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cAjI7Vb">
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cAjI7Vb" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cAjI7Vb"> 
+        <div class="x-contents-content active cAjI7Vb" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cAjI7Vb">
+          <div class="m-denglu cAjI7Vb" xid="div2" __cid="cAjI7Vb"> 
+            <div xid="div1" class="m-login-text cAjI7Vb" __cid="cAjI7Vb"> 
+              <span xid="span2" __cid="cAjI7Vb" class="cAjI7Vb"/>
+              <span xid="span1" __cid="cAjI7Vb" class="cAjI7Vb"/>
+            </div> 
+          </div>  
+          <div xid="div3" class="m-center-img-box cAjI7Vb" __cid="cAjI7Vb">
+            <img src="$model/UI2/weX5_developer/test/img/finish2.png" alt="" xid="image2" class="m-center-img cAjI7Vb" __cid="cAjI7Vb"/>  
+            <span xid="span3" class="m-text cAjI7Vb" __cid="cAjI7Vb">60</span>
+          </div>  
+          <div xid="div4" class="m-button-group cAjI7Vb" __cid="cAjI7Vb">
+            <a component="$model/UI2/system/components/justep/button/button" class="btn m-btn cAjI7Vb" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backToPerson" data-config="{&quot;label&quot;:&quot;确定&quot;}" __cid="cAjI7Vb"> 
+              <i xid="i2" __cid="cAjI7Vb" class="cAjI7Vb"/>  
+              <span xid="span4" __cid="cAjI7Vb" class="cAjI7Vb">确定</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <style __cid="cAjI7Vb" class="cAjI7Vb">.x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-top {height: 49px;}.x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-content { top: 49px;bottom: nullpx;}.x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-top {height: 69px;}.iosstatusbar .x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-content { top: 69px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-top {height: 49px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p975a239d54e74b66b72e0de958ea6ba1-iosstatusbar &gt;.x-panel-content {top: 49px;}</style>
+  </div>
+</div>

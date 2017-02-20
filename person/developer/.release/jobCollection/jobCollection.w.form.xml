@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cnmUFBr" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cnmUFBr" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.m-coll-media-box.cnmUFBr{width: 100%; height: 100px} .m-c-media-left-img.cnmUFBr{width: 80px; height: 80px} .m-videolist-h5.cnmUFBr{padding: 0px; font-size: 14px; font-weight: 600; color: rgb(51, 51, 51)} .m-salary-box.cnmUFBr{height: 80px; display: flex; flex-flow: column wrap; justify-content: center; align-items: center} .m-c-div11.cnmUFBr{display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center} .m-c-div12.cnmUFBr{display: flex; flex-flow: column wrap; justify-content: flex-start; align-items: flex-start} .m-list-group-item.cnmUFBr{padding-right: 0px; padding-top: 0px; margin-top: 10px; position: relative} .m-trangle.cnmUFBr{width: auto; height: auto; position: absolute; right: 0px} .m-delete.cnmUFBr{padding: 2px; margin: 2px; background: rgb(234, 65, 60); color: white} .m-div6.cnmUFBr{padding-right: 10px} .m-c-btn-group.cnmUFBr{border-top: 1px solid rgb(238, 238, 238)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:loadData" __cid="cnmUFBr" class="cnmUFBr"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar cnmUFBr" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cnmUFBr"> 
+    <div class="x-panel-top cnmUFBr" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnmUFBr"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cnmUFBr" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我收藏的职位&quot;}" __cid="cnmUFBr"> 
+        <div class="x-titlebar-left cnmUFBr" __cid="cnmUFBr"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cnmUFBr" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cnmUFBr"> 
+            <i class="icon-chevron-left cnmUFBr" __cid="cnmUFBr"/>  
+            <span __cid="cnmUFBr" class="cnmUFBr"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cnmUFBr" __cid="cnmUFBr">我收藏的职位</div>  
+        <div class="x-titlebar-right  cnmUFBr" __cid="cnmUFBr">
+          <div class="empty cnmUFBr" __cid="cnmUFBr"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cnmUFBr" xid="button1" style="font-size:small;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:clearCompletedBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-trash&quot;,&quot;label&quot;:&quot;清空&quot;}" __cid="cnmUFBr"> 
+            <i xid="i1" class="icon-ios7-trash icon-android-trash cnmUFBr" __cid="cnmUFBr"/>  
+            <span xid="span6" __cid="cnmUFBr" class="cnmUFBr">清空</span>
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cnmUFBr" xid="content1" _xid="C70C548F7F200001CE6C1C80BF9810B3" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cnmUFBr"> 
+      <div class="x-scroll cnmUFBr" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cnmUFBr"> 
+        <div class="x-scroll-content cnmUFBr" xid="div3" __cid="cnmUFBr">
+          <ul component="$model/UI2/system/components/justep/list/list" class="x-list x-list-template hide cnmUFBr" xid="list1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;jobColData&quot;}" __cid="cnmUFBr"> 
+            <ul class="x-list-template cnmUFBr" xid="listTemplateUl1" __cid="cnmUFBr"> 
+              <li xid="li1" class="list-group-item m-list-group-item cnmUFBr" __cid="cnmUFBr">
+                <div xid="div5" __cid="cnmUFBr" class="cnmUFBr"> 
+                  <div xid="span7" class="pull-right m-trangle cnmUFBr" __cid="cnmUFBr"> 
+                    <i src="" alt="" xid="image3" class="icon-close-round m-delete cnmUFBr" bind-click="deleteBtnClick" __cid="cnmUFBr"/> 
+                  </div>
+                  <div xid="div10" class="media-left cnmUFBr" __cid="cnmUFBr"> 
+                    <img alt="" xid="image1" class="img-rounded media-object cnmUFBr" style="width:75px;" height="80px" src="$model/UI2/Hello/person/developer/&quot;.jpg&quot;" bind-attr-src=" $model.getImageUrl( $object.val(&quot;imgUrl&quot;))" __cid="cnmUFBr"/>
+                  </div>  
+                  <div class="media-body m-float cnmUFBr" xid="div14" __cid="cnmUFBr"> 
+                    <div xid="div2" class="m-c-div11 cnmUFBr" __cid="cnmUFBr">
+                      <div xid="div1" class="m-c-div12 cnmUFBr" __cid="cnmUFBr">
+                        <span xid="span1" class="media-heading lead text-black  m-videolist-h5 cnmUFBr" bind-text="ref('job_name')" __cid="cnmUFBr">职业名称</span>  
+                        <span xid="span4" bind-text="ref('publisher')" __cid="cnmUFBr" class="cnmUFBr">发布人</span>
+                        <span xid="span2" bind-text="ref('location')" __cid="cnmUFBr" class="cnmUFBr">工作地点</span>
+                        <span xid="span3" bind-text="ref('experience')" __cid="cnmUFBr" class="cnmUFBr">工作经验</span>
+                      </div>  
+                      <div xid="div6" class="m-div6 cnmUFBr" __cid="cnmUFBr">
+                        <span xid="span5" bind-text="ref('job_salary')" __cid="cnmUFBr" class="cnmUFBr">3块钱</span>
+                      </div> 
+                    </div> 
+                  </div> 
+                </div>
+              </li>
+            </ul>
+          </ul> 
+        </div>  
+        <div class="x-content-center x-pull-up cnmUFBr" xid="div4" __cid="cnmUFBr"> 
+          <span class="x-pull-up-label cnmUFBr" xid="span8" __cid="cnmUFBr">加载更多...</span>
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cnmUFBr" class="cnmUFBr">.x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p4d4c3fbf206a4b92a013f29b7f8ca9c8-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

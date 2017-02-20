@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cArQjyi" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cArQjyi" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/output/output,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cArQjyi{color: rgb(0, 0, 0)} .text-danger.cArQjyi{color: rgb(234, 65, 60)} .x-titlebar.cArQjyi{background-color: rgb(234, 65, 60); font-size: 16px} .panel-heading.cArQjyi{border-color: rgb(239, 239, 239)} .img3.cArQjyi{width: 50px; height: 50px} .x-nopadding.cArQjyi{padding-left: 0; padding-right: 0} .input-group.cArQjyi i.cArQjyi{font-size: 24px} .input-group.cArQjyi .input-group-addon.cArQjyi{background-color: rgb(255, 255, 255); border: 0; border-radius: 0} .input-group.cArQjyi .form-control.cArQjyi{border: 0; border-radius: 0; color: rgb(153, 153, 153)} .input-group.cArQjyi .form-control.cArQjyi:focus{box-shadow: none; border-color: rgb(239, 239, 239)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cArQjyi" class="cArQjyi"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar cArQjyi" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cArQjyi"> 
+    <div class="x-panel-top cArQjyi" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cArQjyi"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cArQjyi" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cArQjyi"> 
+        <div class="x-titlebar-left cArQjyi" xid="div2" __cid="cArQjyi"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-left cArQjyi" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-c&quot;,&quot;label&quot;:&quot;个人信息&quot;}" __cid="cArQjyi"> 
+            <i xid="i2" class="icon-arrow-left-c cArQjyi" __cid="cArQjyi"/>  
+            <span xid="span6" __cid="cArQjyi" class="cArQjyi">个人信息span</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cArQjyi" xid="div3" __cid="cArQjyi"/>  
+        <div class="x-titlebar-right  cArQjyi" xid="div4" __cid="cArQjyi">
+          <div class="empty cArQjyi" __cid="cArQjyi"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content  x-cards panel-body cArQjyi" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cArQjyi"> 
+      <div xid="div1" class="list-group cArQjyi" __cid="cArQjyi"> 
+        <div class="list-group-item cArQjyi" __cid="cArQjyi"> 
+          <div class="input-group cArQjyi" xid="div7" __cid="cArQjyi"> 
+            <span class="input-group-addon cArQjyi" xid="span2" __cid="cArQjyi"> 
+              <i class="icon-ios7-contact cArQjyi" __cid="cArQjyi"/>  
+              <div component="$model/UI2/system/components/justep/output/output" class="x-output cArQjyi" xid="output1" bind-text="justep.Shell.userName" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'}" __cid="cArQjyi"/>
+            </span> 
+          </div> 
+        </div>  
+        <div class="list-group-item cArQjyi" xid="div6" __cid="cArQjyi"> 
+          <div class="input-group cArQjyi" xid="div8" __cid="cArQjyi"> 
+            <span class="input-group-addon cArQjyi" xid="span3" __cid="cArQjyi"> 
+              <i class="icon-unlocked cArQjyi" xid="i3" __cid="cArQjyi"/> 
+            </span> 
+          </div> 
+        </div> 
+      </div>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn x-black btn-only-label btn-block cArQjyi" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:logoutBtnClick" data-config="{&quot;label&quot;:&quot;注销&quot;}" __cid="cArQjyi"> 
+        <i xid="i4" __cid="cArQjyi" class="cArQjyi"/>  
+        <span xid="span4" __cid="cArQjyi" class="cArQjyi">注销</span> 
+      </a>  
+      <div class="panel-body cArQjyi" __cid="cArQjyi"/>  
+      <div class="text-muted cArQjyi" bind-text="'其它的信息'" __cid="cArQjyi"/>  
+      <div class="list-group cArQjyi" __cid="cArQjyi"/> 
+    </div>  
+    <style __cid="cArQjyi" class="cArQjyi">.x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p568a3ec287ce47148edd6f734b3af7dc-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

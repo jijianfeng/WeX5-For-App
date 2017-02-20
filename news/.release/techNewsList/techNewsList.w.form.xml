@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cEZZnEr" class="cEZZnEr" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cEZZnEr{color: black}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cEZZnEr" class="cEZZnEr"></div>  
+  <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cEZZnEr" xid="contents" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;slidable&quot;:true}" __cid="cEZZnEr"> 
+    <div class="x-contents-content active active cEZZnEr" xid="content1" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cEZZnEr"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar cEZZnEr" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cEZZnEr"> 
+        <div class="x-panel-top cEZZnEr" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEZZnEr"> 
+          <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cEZZnEr" style="background-color:#EA413C;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;活动报名&quot;}" __cid="cEZZnEr"> 
+            <div class="x-titlebar-left cEZZnEr" __cid="cEZZnEr"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cEZZnEr" xid="backBtn1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;}" __cid="cEZZnEr"> 
+                <i class="icon-chevron-left cEZZnEr" __cid="cEZZnEr"/>  
+                <span __cid="cEZZnEr" class="cEZZnEr">关闭</span> 
+              </a> 
+            </div>  
+            <div class="x-titlebar-title cEZZnEr" __cid="cEZZnEr">活动报名</div>  
+            <div class="x-titlebar-right  cEZZnEr" __cid="cEZZnEr">
+              <div class="empty cEZZnEr" __cid="cEZZnEr"/>
+            </div> 
+          </div> 
+        </div>  
+        <div class="x-panel-content  x-scroll-view cEZZnEr" _xid="C7051FDDB4200001E0EE1265D4C01136" style="bottom: 0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cEZZnEr">
+          <div class="x-scroll cEZZnEr" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" data-config="{&quot;autoPullUp&quot;:true}" __cid="cEZZnEr"> 
+            <div class="x-scroll-content cEZZnEr" xid="div2" __cid="cEZZnEr">
+              <div component="$model/UI2/system/components/justep/list/list" class="x-list cEZZnEr" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;techNewsData&quot;,&quot;limit&quot;:8}" __cid="cEZZnEr"> 
+                <ul class="x-list-template hide cEZZnEr" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="cEZZnEr"> 
+                  <li xid="li1" bind-click="li1Click" class="list-group-item cEZZnEr" __cid="cEZZnEr"> 
+                    <div xid="div10" class="media-left cEZZnEr" __cid="cEZZnEr"> 
+                      <img alt="" xid="image1" class="img-rounded media-object cEZZnEr" bind-attr-src="$model.getImageUrl(val(&quot;imageUrl&quot;))" style="width:75px;" height="80px" __cid="cEZZnEr"/> 
+                    </div>  
+                    <div class="media-body cEZZnEr" xid="div14" __cid="cEZZnEr"> 
+                      <h5 class="media-heading lead text-black cEZZnEr" bind-text="ref('title')" xid="h51" __cid="cEZZnEr"/>  
+                      <div class="text-muted cEZZnEr" xid="div16" __cid="cEZZnEr"> 
+                        <span xid="span21" bind-text="ref('content')" __cid="cEZZnEr" class="cEZZnEr"/> 
+                      </div>  
+                      <div class="text-muted cEZZnEr" xid="div15" __cid="cEZZnEr"> 
+                        <span xid="span30" __cid="cEZZnEr" class="cEZZnEr">最近</span>  
+                        <span xid="span9" bind-text="ref('joinNumber')" class="text-danger cEZZnEr" __cid="cEZZnEr"/>  
+                        <span xid="span22" __cid="cEZZnEr" class="cEZZnEr">人报名</span> 
+                      </div> 
+                    </div> 
+                  </li> 
+                </ul> 
+              </div>
+            </div>  
+            <div class="x-content-center x-pull-up cEZZnEr" xid="div3" __cid="cEZZnEr"> 
+              <span class="x-pull-up-label cEZZnEr" xid="span2" __cid="cEZZnEr">加载更多...</span>
+            </div> 
+          </div>
+        </div>  
+        <style __cid="cEZZnEr" class="cEZZnEr">.x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p508c3a0f2d2c44e7b54d8bc0be6f97b1-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+      </div> 
+    </div>  
+    <div class="x-contents-content cEZZnEr" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cEZZnEr"></div> 
+  </div> 
+</div>

@@ -1,0 +1,10 @@
+/*title*/
+.x-titlebar{ background-color:#EA413C; color:#777; border-bottom:1px solid #999;}
+
+.m-textarea-box{position:relative;}
+.m-textarea{border-top-left-radius:0px;border-top-right-radius:0px;}
+.m-word-count{position:absolute;right:0px;bottom:0px;}
+
+/*bottom*/
+.m-foot{height:auto;padding:0px 10px;text-align: center;}
+
